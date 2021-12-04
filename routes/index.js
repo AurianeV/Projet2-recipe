@@ -4,15 +4,15 @@ const router = express.Router();
 
 //premiere route- Home page
 router.get("/home", (request, response, next) => {
-  response.send("Salut");
+  response.render("index");
 });
 // deuxime route - sign up
 router.get("/signup", (request, response, next) => {
-  response.send("Inscription");
+  response.render("signup");
 });
 // 3eme route - login
 router.get("/login", (request, response, next) => {
-  response.send("connexion");
+  response.render("login");
 });
 
 module.exports = router;
