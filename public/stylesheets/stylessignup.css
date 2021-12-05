@@ -1,0 +1,47 @@
+
+body {
+    background:url("../images/fond6.png");
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    text-align: center;   
+}
+
+p {
+    color:rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size:25px;
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+}
+
+input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin:15px;
+    padding:10px;
+    font-size: 20px;
+}
+
+button {
+    background-color:brown;
+    color:white;
+    margin-top:60px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}

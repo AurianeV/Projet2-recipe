@@ -1,0 +1,39 @@
+body {
+    background:url("../images/Fond4.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+}
+
+button {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin:7px;
+    padding:10px;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    padding:15px;
+    display: inline-block;
+    margin-left: 28%;
+}
