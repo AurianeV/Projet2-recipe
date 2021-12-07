@@ -1,21 +1,60 @@
 body {
-    background:url("../images/fond5.png");
-    background-repeat: no-repeat;
-    background-size:100% auto;
+  background: url("../images/fond5.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 h2 {
-    text-align: center;
-    color:darkred;
+  font-size: 30px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: darkred;
 }
 
 .formulaire {
-    margin-top: 200px;
-    text-align: center;
+  margin-top: 60px;
+  margin-bottom: 200px;
+  text-align: center;
 }
 
 p {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ingredient {
+  margin-top: 100px;
+}
+button {
+  background-color: rgb(173, 34, 34);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  margin: 7px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to top left,
+    rgba(255, 85, 85, 0.87),
+    rgba(219, 48, 48, 0.781),
+    rgb(129, 11, 11)
+  );
+  box-shadow: inset 2px 2px 2px #ffffffd7,
+    inset -2px -2px 3px rgba(0, 0, 0, 0.637);
 }
 
+button:hover {
+  background-image: linear-gradient(
+    to top left,
+    rgba(199, 0, 0, 0.952),
+    rgba(161, 0, 0, 0.918),
+    rgba(255, 0, 0, 0.767)
+  );
+}
+
+button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.89),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.781);
+}
