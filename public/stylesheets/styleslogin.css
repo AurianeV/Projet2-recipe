@@ -1,6 +1,7 @@
 body {
     background:url("../images/fond6.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {

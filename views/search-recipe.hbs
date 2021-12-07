@@ -2,20 +2,126 @@
 
 <h2>Je choisis ce que je veux...</h2>
 
+<div class="formulaire" >
 
+<div class="preparation">
 <p>Temps de préparation :</p>
+    <div>
+        <input type="checkbox" id="notime" name="duration">
+        <label for="notime">Je n'ai pas beaucoup de temps</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="littletime" name="duration">
+        <label for="littletime">J'ai un peu de temps</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="havetime" name="duration">
+        <label for="havetime">J'ai du temps devant moi</label>
+    </div>
+</div>
+
+<div class="humeur">
+<p>Dans quel mood êtes-vous ?</p>
 <div>
-  <input type="checkbox" id="notime" name="notime"
+  <input type="checkbox" id="comfort" name="mood"
          checked>
-  <label for="notime">Je n'ai pas beaucoup de temps</label>
+  <label for="comfort">J'ai besoin de réconfort, bad mood...</label>
 </div>
 
 <div>
-  <input type="checkbox" id="littletime" name="littletime">
-  <label for="littletime">J'ai un peu de temps</label>
+  <input type="checkbox" id="energy" name="mood">
+  <label for="energy">J'ai besoin d'énergie !!</label>
 </div>
 
 <div>
-  <input type="checkbox" id="havetime" name="havetime">
-  <label for="havetime">J'ai du temps devant moi</label>
+  <input type="checkbox" id="healthy" name="mood">
+  <label for="healthy">Je veux prendre soin de mon corp</label>
+</div>
+
+</div>
+
+
+<div class="saison">
+<p>Je veux des recettes de saison :</p>
+<div>
+  <input type="checkbox" id="summer" name="season"
+         checked>
+  <label for="summer">Été</label>
+</div>
+
+<div>
+  <input type="checkbox" id="autumne" name="season"
+         >
+  <label for="autumne">Automne</label>
+</div>
+
+<div>
+  <input type="checkbox" id="winter" name="season"
+         >
+  <label for="winter">Hiver</label>
+</div>
+
+<div>
+  <input type="checkbox" id="spring" name="season"
+         >
+  <label for="spring">Printemps</label>
+</div>
+
+</div>
+
+
+<div class="repas">
+<p>Quel type de repas ?</p>
+<div>
+  <input type="checkbox" id="brunch" name="type"
+         checked>
+  <label for="brunch">Brunch</label>
+</div>
+
+<div>
+  <input type="checkbox" id="petit-déjeuner" name="type"
+         checked>
+  <label for="Petit-déjeuner">Petit-déjeuner</label>
+</div>
+
+<div>
+  <input type="checkbox" id="apéro" name="type"
+         >
+  <label for="apéro">Apéro</label>
+</div>
+
+<div>
+  <input type="checkbox" id="déjeuner" name="type"
+         >
+  <label for="déjeuner">Déjeuner</label>
+</div>
+
+<div>
+  <input type="checkbox" id="diner" name="type"
+         >
+  <label for="diner">Dîner</label>
+</div>
+
+</div>
+
+<div class="lever">
+<p>Niveau de difficulté : </p>
+<div>
+  <input type="checkbox" id="easy" name="difficulty"
+         checked>
+  <label for="easy">Facile</label>
+</div>
+
+<div>
+  <input type="checkbox" id="medium" name="difficulty">
+  <label for="medium">Moyen</label>
+</div>
+
+<div>
+  <input type="checkbox" id="hard" name="difficulty">
+  <label for="hard">Difficile</label>
+</div>
+
 </div>

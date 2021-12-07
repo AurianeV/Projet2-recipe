@@ -1,5 +1,21 @@
-/* body {
-    background:url("../images/fond8.png");
+body {
+    background:url("../images/fond5.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-} */
+    background-size:100% auto;
+}
+
+h2 {
+    text-align: center;
+    color:darkred;
+}
+
+.formulaire {
+    margin-top: 200px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
