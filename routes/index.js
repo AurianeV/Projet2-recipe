@@ -15,4 +15,9 @@ router.get("/login", (request, response, next) => {
   response.render("login");
 });
 
+// 4ème route - sear-recipe
+router.get("/search-recipe", (request, response, next) => {
+  response.render("search-recipe");
+});
+
 module.exports = router;
