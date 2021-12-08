@@ -25,4 +25,9 @@ router.get("/recipes", (request, response, next) => {
   response.render("recipes");
 });
 
+//6ème route - recette choisie
+router.get("/recipe_id", (request, response, next) => {
+  response.render("recipe_id");
+});
+
 module.exports = router;
