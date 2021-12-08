@@ -20,4 +20,9 @@ router.get("/search-recipe", (request, response, next) => {
   response.render("search-recipe");
 });
 
+// 5eme route - les recettes
+router.get("/recipes", (request, response, next) => {
+  response.render("recipes");
+});
+
 module.exports = router;
