@@ -4,24 +4,35 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    color:rgb(121, 28, 28);
+}
+
+h3 {
+    color:rgb(121, 28, 28);
+}
+
 .photo {
-    width:30%;
-    height:30%;
+    width:350px;
     border-radius: 60px;
     filter: drop-shadow(10px 10px 6px #a3a2a2);
-   
+}
+
+.time_level {
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.resume {
+    padding-right: 140px;
+    padding-left: 180px;
 }
 
 .detailrecette1 {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    
-}
-
-p {
-    padding-left:20%;
-    padding-right: 20%;
 }
 
 hr {
@@ -31,7 +42,7 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
-    width:60%;
+    width:850px;
 }
 
 .fav {
@@ -45,7 +56,11 @@ hr {
     text-align: center;
 }
 
-h3 {
-    padding-right: 20%;
-    padding-left: 20%;
+li {
+    list-style: none;
+}
+
+.etapes {
+    padding-right: 140px;
+    padding-left: 180px;
 }
