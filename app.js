@@ -1,8 +1,24 @@
 const path = require("path");
 const express = require("express");
 const hbs = require("hbs");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+mongoose
+  .connect("mongodb://localhost/Projet2-recipe", { useNewUrlParser: true })
+  .then((x) => {
+    console.log(
+      `Connected to Mongo! Database name: "${x.connections[0].name}"😎`
+    );
+  })
+  .catch((err) => {
+    console.error("Error connecting to mongo", err);
+  });
 
 const app = express();
+
+// Body Parser
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Express View engine setup
 app.set("view engine", "hbs");

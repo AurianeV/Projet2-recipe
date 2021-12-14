@@ -13,7 +13,8 @@ router.get("/signup", (req, res, next) => {
 });
 
 router.post("/auth/signup", (req, res, next) => {
-  // const {name, password } = req.body;
+  const { username, mail, password } = req.body;
+
   console.log(req.body);
   // {name: "test", mail: "email@bla", password: "***" } // req.body
   // 1. Check username and password are not empty
@@ -32,6 +33,7 @@ router.post("/auth/signup", (req, res, next) => {
         return;
       }
 
+      console.log("INSIDE findOne =>", req.body);
       // Encrypt the password
       const salt = bcrypt.genSaltSync(bcryptSalt);
       const hashPass = bcrypt.hashSync(password, salt);
@@ -39,10 +41,10 @@ router.post("/auth/signup", (req, res, next) => {
       //
       // Save the user in DB
       //
-
+      console.log("hashPass", hashPass);
       const newUser = new User({
         username,
-        password: hashPass,
+        passwordHash: hashPass,
       });
 
       newUser
