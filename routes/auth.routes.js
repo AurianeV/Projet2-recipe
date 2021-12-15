@@ -46,7 +46,7 @@ router.post("/auth/signup", (req, res, next) => {
       });
 
       // .post() login route ==> to process form data
-      router.post('/auth/login', (req, res, next) => {
+      router.post('/login', (req, res, next) => {
         const { mail, password } = req.body;
       
         // Si l'utilisateur ne rempli pas les données --> message d'erreur
