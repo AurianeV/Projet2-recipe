@@ -8,6 +8,7 @@ const User = require("../model/User.model.js");
 const bcrypt = require("bcrypt");
 const bcryptSalt = 10;
 
+// Inscription
 router.get("/signup", (req, res, next) => {
   res.render("auth/signup");
 });
@@ -37,6 +38,37 @@ router.post("/auth/signup", (req, res, next) => {
       // Encrypt the password
       const salt = bcrypt.genSaltSync(bcryptSalt);
       const hashPass = bcrypt.hashSync(password, salt);
+
+      // Connexion 
+      // .get() route ==> to display the login form to users
+      router.get('/login', (req, res, next) => res.render('auth/login'));
+
+      // .post() login route ==> to process form data
+      router.post('/login', (req, res, next) => {
+        const { mail, password } = req.body;
+      
+        // Si l'utilisateur ne rempli pas les données --> message d'erreur
+        if (email === '' || password === '') {
+          res.render('auth/login', {
+            errorMessage: 'Please enter both, email and password to login.'
+          });
+          return;
+        }
+      
+        User.findOne({ email })
+          .then(user => {
+            if (!user) {
+              res.render('auth/login', { errorMessage: 'Email is not registered. Try with other email.' });
+              return;
+            } else if (bcryptjs.compareSync(password, user.passwordHash)) {
+              res.render('users/user-profile', { user });
+            } else {
+              res.render('auth/login', { errorMessage: 'Incorrect password.' });
+            }
+          })
+          .catch(error => next(error));
+      });
+      
 
       //
       // Save the user in DB
