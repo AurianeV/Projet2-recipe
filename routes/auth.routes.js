@@ -41,7 +41,9 @@ router.post("/auth/signup", (req, res, next) => {
 
       // Connexion 
       // .get() route ==> to display the login form to users
-      router.get('/login', (req, res, next) => res.render('auth/login'));
+      router.get('/login', (req, res, next) => { 
+        res.render('auth/login');
+      });
 
       // .post() login route ==> to process form data
       router.post('/auth/login', (req, res, next) => {
@@ -61,7 +63,7 @@ router.post("/auth/signup", (req, res, next) => {
               res.render('auth/login', { errorMessage: 'Email is not registered. Try with other email.' });
               return;
             } else if (bcryptjs.compareSync(password, user.passwordHash)) {
-              res.render('users/user-profile', { user });
+              res.render('/recipes', { user });
             } else {
               res.render('auth/login', { errorMessage: 'Incorrect password.' });
             }
