@@ -3,6 +3,9 @@ const express = require("express");
 const hbs = require("hbs");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+
+require('dotenv').config()
+
 mongoose
   .connect(process.env.MONGODB_URI)
   .then((x) => {
@@ -34,10 +37,13 @@ app.use("/", mainRouter); // fais exister les routes contnues dans le router rou
 
 // auth router
 const authRouter = require("./routes/auth.routes");
+const { createRequire } = require("module");
 app.use("/", authRouter); // fais exister les routes contnues dans le router routes/auth.routes.js
 
 //server start
 const port = process.env.PORT
-app.listen(port, () => console.log(`my first app listening on port ${port}!`));
+app.listen(port, () => {
+  console.log(`my first app listening on port ${port}!`)
+});
 
 module.exports = app;
