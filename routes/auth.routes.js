@@ -5,7 +5,7 @@ const router = new Router();
 const User = require("../model/User.model.js");
 
 // Bcrypt to encrypt passwords
-const bcrypt = require("bcrypt");
+const bcryptjs = require("bcryptjs");
 const bcryptSalt = 10;
 
 // Inscription
@@ -39,15 +39,35 @@ router.post("/auth/signup", (req, res, next) => {
       const salt = bcrypt.genSaltSync(bcryptSalt);
       const hashPass = bcrypt.hashSync(password, salt);
 
-      // Connexion 
+
+      //
+      // Save the user in DB
+      //
+      console.log("hashPass", hashPass);
+      const newUser = new User({
+        username,
+        passwordHash: hashPass,
+      });
+
+      newUser
+        .save()
+        .then(() => res.redirect("/"))
+        .catch((err) => next(err));
+    })
+    .catch((err) => next(err));
+});
+
+// Connexion 
       // .get() route ==> to display the login form to users
       router.get('/login', (req, res, next) => { 
+        console.log("coucou");
         res.render('auth/login');
+        
       });
 
       // .post() login route ==> to process form data
       router.post('/auth/login', (req, res, next) => {
-        const { mail, password } = req.body;
+        const { email, password } = req.body;
       
         // Si l'utilisateur ne rempli pas les données --> message d'erreur
         if (email === '' || password === '') {
@@ -70,24 +90,6 @@ router.post("/auth/signup", (req, res, next) => {
           })
           .catch(error => next(error));
       });
-      
-
-      //
-      // Save the user in DB
-      //
-      console.log("hashPass", hashPass);
-      const newUser = new User({
-        username,
-        passwordHash: hashPass,
-      });
-
-      newUser
-        .save()
-        .then(() => res.redirect("/"))
-        .catch((err) => next(err));
-    })
-    .catch((err) => next(err));
-});
 
 module.exports = router;
 // install bcrypt
