@@ -3,6 +3,11 @@
 <div id="signup">
   <h2>Inscription</h2>
   <p>Un peu de patience avant de découvrir tes recettes personnalisées...</p>
+
+  {{#if errorMessage}}
+     <p class="error">{{errorMessage}}</p>
+ {{/if}}  
+
   <form action="auth/signup" method="POST">
     <label>
       <input class="name" type="text" name="username" placeholder="Ton nom" />
@@ -22,8 +27,6 @@
     {{!-- error message will be added here --}}
   </form>
 
-    {{#if errorMessage}}
-     <p>{{errorMessage}}</p>
- {{/if}}
+    
  
 </div>

@@ -3,6 +3,7 @@ const express = require("express");
 const hbs = require("hbs");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const session = require('express-session');
 
 require('dotenv').config()
 
@@ -27,6 +28,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set("view engine", "hbs");
 app.use(express.static(path.join(__dirname, "public")));
 
+
+app.use(
+  session({
+    secret: process.env.SESS_SECRET,
+    resave: false,
+    saveUninitialized: true,
+    // cookie: { maxAge: 60000 } // 60 * 1000 ms === 1 min
+  })
+);
+
 //
 // Routers (mount)
 //
@@ -45,5 +56,7 @@ const port = process.env.PORT
 app.listen(port, () => {
   console.log(`my first app listening on port ${port}!`)
 });
+
+
 
 module.exports = app;

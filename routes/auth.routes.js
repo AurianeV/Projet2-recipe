@@ -52,8 +52,8 @@ router.post("/auth/signup", (req, res, next) => {
       newUser
         .save()
         .then(() => {
-          console.log("coucou");
-          res.render("search-recipe")
+          req.session.currentUser = user;
+          res.redirect("/search-recipe")
         })
         .catch((err) => next(err));
     })
@@ -86,8 +86,8 @@ router.post("/auth/signup", (req, res, next) => {
               res.render('auth/login', { errorMessage: 'Email is not registered. Try with other email.' });
               return;
             } else if (bcryptjs.compareSync(password, user.passwordHash)) {
-              console.log("coucou");
-              res.render('search-recipe', { user });
+              req.session.currentUser = user;
+              res.redirect('/search-recipe');
             } else {
               res.render('auth/login', { errorMessage: 'Incorrect password.' });
             }

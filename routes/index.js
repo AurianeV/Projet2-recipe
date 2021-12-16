@@ -11,10 +11,23 @@ router.get("/home", (request, response, next) => {
 router.get("/search-recipe", (request, response, next) => {
   response.render("search-recipe");
 });
+// 4ème route - sear-recipe
+router.post("/search-recipe", (request, response, next) => {
+  const {crit, crit} = request.body
+  Recipe.find({crit, crit})
+  .then(myRecipes => {
+     response.render("recipes", myRecipes)
+  })
+});
+
 
 // 5eme route - les recettes
 router.get("/recipes", (request, response, next) => {
-  response.render("recipes");
+  Recipe.find({})
+  .then(myRecipes => {
+     response.render("recipes", myRecipes)
+  })
+  
 });
 
 //6ème route - recette choisie
