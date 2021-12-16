@@ -14,7 +14,10 @@
     </label>
  
     <button>Je me connecte ! </button>
- 
+
     {{!-- error message will be added here --}}
-  </form>
+  </form> 
+  {{#if errorMessage}}
+     <p>{{errorMessage}}</p>
+ {{/if}}
 </div>

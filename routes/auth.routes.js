@@ -30,14 +30,14 @@ router.post("/auth/signup", (req, res, next) => {
     .then((user) => {
       // 2. Check user does not already exist
       if (user !== null) {
-        res.render("auth/signup", { message: "The username already exists" });
+        res.render("auth/signup", { errorMessage: "The username already exists" });
         return;
       }
 
       console.log("INSIDE findOne =>", req.body);
       // Encrypt the password
-      const salt = bcrypt.genSaltSync(bcryptSalt);
-      const hashPass = bcrypt.hashSync(password, salt);
+      const salt = bcryptjs.genSaltSync(bcryptSalt);
+      const hashPass = bcryptjs.hashSync(password, salt);
 
 
       //
@@ -51,7 +51,10 @@ router.post("/auth/signup", (req, res, next) => {
 
       newUser
         .save()
-        .then(() => res.redirect("/"))
+        .then(() => {
+          console.log("coucou");
+          res.render("search-recipe")
+        })
         .catch((err) => next(err));
     })
     .catch((err) => next(err));
@@ -83,7 +86,8 @@ router.post("/auth/signup", (req, res, next) => {
               res.render('auth/login', { errorMessage: 'Email is not registered. Try with other email.' });
               return;
             } else if (bcryptjs.compareSync(password, user.passwordHash)) {
-              res.render('/recipes', { user });
+              console.log("coucou");
+              res.render('search-recipe', { user });
             } else {
               res.render('auth/login', { errorMessage: 'Incorrect password.' });
             }
