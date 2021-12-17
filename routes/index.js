@@ -13,7 +13,7 @@ router.get("/search-recipe", (request, response, next) => {
 });
 // 4ème route - sear-recipe
 router.post("/search-recipe", (request, response, next) => {
-  const {crit, crit} = request.body
+  const {season, duration, mood,type,difficulty,ingredient} = request.body
   Recipe.find({crit, crit})
   .then(myRecipes => {
      response.render("recipes", myRecipes)
