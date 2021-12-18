@@ -7,14 +7,15 @@ router.get("/home", (request, response, next) => {
   response.render("index");
 });
 
-// 4ème route - sear-recipe
+// route - sear-recipe
 router.get("/search-recipe", (request, response, next) => {
   response.render("search-recipe");
 });
+
 // 4ème route - sear-recipe
 router.post("/search-recipe", (request, response, next) => {
-  const {season, duration, mood,type,difficulty,ingredient} = request.body
-  Recipe.find({crit, crit})
+  const {season, duration, mood, type, difficulty, ingredient} = request.body
+  Recipe.find({crit,})
   .then(myRecipes => {
      response.render("recipes", myRecipes)
   })
