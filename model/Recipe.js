@@ -1,9 +1,9 @@
 const { Schema, model } = require("mongoose");
 
-const userSchema = new Schema(
+const recipe = new Schema(
   {
     name: String,
-    season: [{ type: String, enum: ["winter", "spring", "autumne", "summer"] } ],
+    season: [{ type: String, enum: ["winter", "spring", "autumn", "summer"] } ],
     duration: { type: String, enum: ['1', '2', '3'] },
     mood: [{ type: String, enum: ["comfort", "energy", "healthy"] } ],
     type: [{ type: String, enum: ["apero", "brunch", "petit-dejeuner", "diner" , "dejeuner", "dessert"] } ],
@@ -16,4 +16,4 @@ const userSchema = new Schema(
   }
 );
 
-module.exports = model("User", userSchema);
+module.exports = model("Recipe", recipe);

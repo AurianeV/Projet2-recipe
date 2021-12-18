@@ -1,4 +1,4 @@
-[
+const recipes = [
   {
     "name": "Soupe au curry",
     "season": ["winter", "autumn"],
@@ -150,7 +150,7 @@
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "1",
     "mood": ["comfort"],
-    "type": ["brunch", "dejeuner", "Apero", "diner"],
+    "type": ["brunch", "dejeuner", "apero", "diner"],
     "difficulty": "easy",
     "ingredient": ["saucisse", "pate feuilletee"]
   },
@@ -434,7 +434,7 @@
     "season": ["summer", "spring", "winter"],
     "duration": "2",
     "mood": ["comfort"],
-    "type": ["dessert","petit dejeuner"],
+    "type": ["dessert","petit-dejeuner"],
     "difficulty": "easy",
     "ingredient": [
       "farine",
@@ -448,7 +448,7 @@
   },
   {
     "name": "Quiche sans pate",
-    "season": ["summer", "spring", "winter", "automn"],
+    "season": ["summer", "spring", "winter", "autumn"],
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -465,7 +465,7 @@
   },
   {
     "name": "Tartines de tapenade verte au chèvre et basilic",
-    "season": ["summer", "spring", "winter", "automn"],
+    "season": ["summer", "spring", "winter", "autumn"],
     "duration": "1",
     "mood": ["comfort"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -482,7 +482,7 @@
   },
   {
     "name": "Frittata aux champignons",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -499,7 +499,7 @@
   },
   {
     "name": "Terrine de foie gras mi-cuit marbré aux figues",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "2",
     "mood": ["comfort"],
     "type": ["diner", "apero"],
@@ -515,7 +515,7 @@
   },
   {
     "name": "Fondue de poireaux",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "1",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -524,7 +524,7 @@
   },
   {
     "name": "Noix de Saint-Jacques à l'orange",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -540,7 +540,7 @@
   },
   {
     "name": "Risotto",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "3",
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
@@ -559,7 +559,7 @@
   },
   {
     "name": "Patate douce rôtie au four",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -575,7 +575,7 @@
   },
   {
     "name": "Potimarrons farcis aux champignons, épinards, féta et graines de courge",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -592,8 +592,9 @@
   },
   {
     "name": "Boeuf Wellington",
-    "season": ["winter", "automn"],
+    "season": ["winter", "autumn"],
     "duration": "3",
+    'time': '4mins',
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
     "difficulty": "medium",
@@ -607,5 +608,26 @@
       "beurre",
       "foie gras cru"
     ]
+    // 'description': {
+     // '1': 'blablabla'
+   // }
   }
 ]
+
+const Recipe = require('../model/Recipe')
+const mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost/Projet2-recipe')
+.then(function (){
+    console.log('connected to mongodb');
+    Recipe.create(recipes)
+    .then(createdRecipes => {
+      console.log(`${createdRecipes.length} recettes sont crées`)
+    })
+    .catch(error => {
+      console.log(`ERROR lors de creation des recettes : ${error}`)
+    })
+})
+.catch (error => {
+    console.log ('Error! connection to mongodb', error);
+})
+
