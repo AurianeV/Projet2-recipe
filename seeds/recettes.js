@@ -401,18 +401,18 @@ const recettes = [
     duration: "1",
     mood: ["energy", "healthy"],
     type: ["dejeuner", "diner"],
-    difficulty: "easy", "medium",
+    difficulty: ["easy", "medium"],
     ingredient: [
       "pomme de terre",
       "filet de harengs fumes",
       "pomme granny smith",
       "citron",
       "aneth",
-      "moutarde", 
-      "jaune d'oeuf"
+      "moutarde",
+      "jaune d'oeuf",
     ],
   },
-   {
+  {
     name: "Aubergines a la parmigiana",
     season: ["summer", "spring", "winter"],
     duration: "1",
@@ -425,8 +425,8 @@ const recettes = [
       "parmesan",
       "thym",
       "basilic",
-      "romarin", 
-      "ail"
+      "romarin",
+      "ail",
     ],
   },
   {
@@ -442,8 +442,8 @@ const recettes = [
       "oeufs",
       "sucre",
       "sucre vanille",
-      "huile", 
-      "levure chimique"
+      "huile",
+      "levure chimique",
     ],
   },
   {
@@ -459,14 +459,14 @@ const recettes = [
       "oeufs",
       "lardons",
       "farine",
-      "poireaux", 
-      "noix de muscade"
+      "poireaux",
+      "noix de muscade",
     ],
   },
   {
     name: "Tartines de tapenade verte au chèvre et basilic",
     season: ["summer", "spring", "winter", "automn"],
-    duration: "1", "2",
+    duration: ["1", "2"],
     mood: ["energy", "healthy", "comfort"],
     type: ["dejeuner", "diner", "apero", "brunch"],
     difficulty: "easy",
@@ -476,8 +476,8 @@ const recettes = [
       "capres",
       "ail",
       "olives verte denoyautees",
-      "chevre frais", 
-      "huile d'olive"
+      "chevre frais",
+      "huile d'olive",
     ],
   },
   {
@@ -493,62 +493,58 @@ const recettes = [
       "oeufs",
       "parmesan",
       "creme liquide entiere",
-      "persil", 
-      "ciboulette"
+      "persil",
+      "ciboulette",
     ],
-  }
+  },
   {
     name: "Terrine de foie gras mi-cuit marbré aux figues",
     season: ["winter", "automn"],
     duration: ["1", "2"],
     mood: ["energy", , "comfort"],
     type: ["diner", "apero", "brunch"],
-    difficulty: "easy", "medium",
+    difficulty: ["easy", "medium"],
     ingredient: [
       "foie gras cru deveine",
       "figues seche",
       "sucre",
       "cognac",
       "noix de muscade",
-      "sel", 
+      "sel",
     ],
-  }
-   {
+  },
+  {
     name: "Fondue de poireaux",
     season: ["winter", "automn"],
-    duration: ["1", ],
-    mood: ["comfort"],
+    duration: "1",
+    mood: "comfort",
     type: ["diner", "dejeuner"],
-    difficulty: "easy", "medium",
-    ingredient: [
-      "poireaux",
-      "creme fraiche",
-      "beurre", 
-    ],
-  }
-   {
+    difficulty: ["easy", "medium"],
+    ingredient: ["poireaux", "creme fraiche", "beurre"],
+  },
+  {
     name: "Noix de Saint-Jacques à l'orange",
     season: ["winter", "automn"],
     duration: ["1", "2"],
     mood: ["comfort", "healthy"],
     type: ["diner", "dejeuner"],
-    difficulty: "easy", "medium",
+    difficulty: ["easy", "medium"],
     ingredient: [
       "noix de saint jaques",
       "orange",
       "miel liquide",
       "pomme de terre",
       "ciboulette",
-      "creme d'amande", 
+      "creme d'amande",
     ],
-  }
-   {
+  },
+  {
     name: "Risotto",
     season: ["winter", "automn"],
     duration: ["1", "2"],
     mood: ["comfort", "healthy"],
     type: ["diner", "dejeuner"],
-    difficulty: "easy", "medium",
+    difficulty: ["easy", "medium"],
     ingredient: [
       "riz a risotto arborio",
       "parmesan",
@@ -558,10 +554,10 @@ const recettes = [
       "creme fraiche liquide",
       "verre de vin blanc",
       "bouillon de legumes",
-      "beurre"
+      "beurre",
     ],
-  }
-   {
+  },
+  {
     name: "Patate douce rôtie au four",
     season: ["winter", "automn"],
     duration: ["1", "2"],
@@ -574,10 +570,10 @@ const recettes = [
       "creme de coco",
       "ail en poudre",
       "roquette",
-      "ciboulette", 
+      "ciboulette",
     ],
-  }
-   {
+  },
+  {
     name: "Potimarrons farcis aux champignons, épinards, féta et graines de courge",
     season: ["winter", "automn"],
     duration: ["1", "2"],
@@ -591,14 +587,14 @@ const recettes = [
       "champignon de Paris",
       "creme vegetale",
       "graines de courge",
-      "oignon" 
+      "oignon",
     ],
-  }
+  },
   {
     name: "Boeuf Wellington",
     season: ["winter", "automn"],
-    duration: ["3"],
-    mood: ["comfort"],
+    duration: "3",
+    mood: "comfort",
     type: ["diner", "dejeuner"],
     difficulty: "medium",
     ingredient: [
@@ -609,10 +605,7 @@ const recettes = [
       "persil",
       "oeuf",
       "beurre",
-      "foie gras cru"
+      "foie gras cru",
     ],
-  }
-
+  },
 ];
-
-
