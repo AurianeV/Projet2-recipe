@@ -594,6 +594,7 @@ const recipes = [
     "name": "Boeuf Wellington",
     "season": ["winter", "autumn"],
     "duration": "3",
+    "img": Image("/images/fav.png"),
     'time': '4mins',
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
@@ -615,7 +616,8 @@ const recipes = [
 ]
 
 const Recipe = require('../model/Recipe')
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
+const { urlencoded } = require('body-parser');
 mongoose.connect('mongodb://localhost/Projet2-recipe')
 .then(function (){
     console.log('connected to mongodb');
