@@ -7,7 +7,7 @@
 
 
 <article>
-  <img src="{{this.img}}" alt="soupe" />
+  <img src="{{this.image}}" alt="image"/>
     
     <a>
       <h3>{{name}}</h3> <br>
@@ -17,8 +17,8 @@
   <div class="timebutton"> 
 
     <div class="critere">
-        <p> <strong>Temps de Preparation:</strong> <time>{{duration}}</time></p>
-        <p> <strong>Difficulty:</strong> {{difficulty}}</p>
+        <p> <strong>Temps de Preparation:</strong> <time>{{time}}</time></p>
+        <p> <strong>Difficulté:</strong> {{difficulty}}</p>
         <p> <strong>Mood:</strong> 
          {{#each mood}}
           {{this}}
@@ -27,6 +27,7 @@
 
     </div>
     
+    <form action="recipe_id" method="get">
       <button >Découvrir la recette...</button>
 
   </div> 

@@ -1,9 +1,11 @@
 [
   {
-    "name": "Soupe au curry",
+    "name": "Soupe au curry & carottes",
+    "description":"Et si vous appreniez à préparer une soupe à la carotte qui plaira à coup sûr, ça vous dit ? Un velouté de carottes au curry original et savoureux qui risque de surprendre votre famille. C’est certain, vous allez les épater, il n’y a rien de meilleur qu’une succulente soupe maison.",
     "season": ["winter", "autumn"],
-    "image":"",
+    "image":"/images/soupe1.png",
     "duration": "2",
+    "time":"30min",
     "mood": ["healthy"],
     "type": ["diner"],
     "difficulty": "easy",
@@ -17,11 +19,19 @@
       "bouillon volaille",
       "crème",
       "sel"
-    ]
+    ], 
+      "personne": "4 personnes",
+      "ingredients": "600 g de carottes, 6 portions de Vache qui rit ® ou Carré Frais ®, 2 oignons, 1 c.à café de curry, 2 cubes de bouillon de volaille, 2 c.à soupe d'huile d'olive, 1 l d'eau",
+      "Etapes": [ "Étape 1 : Commencez par éplucher vos légumes et coupez-les en morceaux.",
+      "Étape 2 : Dans une poêle, faites chauffer l'huile d'olive et ajoutez les légumes. Mélangez et saupoudrez de curry. Goûtez votre soupe afin de savoir s’il est nécessaire de rajouter du curry ou non. Ajoutez l'eau et les cubes de bouillon puis laissez cuire 15 min environ.",
+      "Étape 3 : Votre préparation est maintenant presque terminée, il ne vous reste plus qu’à utiliser votre mixeur plongeant pour obtenir la consistance désirée et à ajouter les portions de fromages et à les laisser fondre.",
+      "Étape 4 : Vous sentez la bonne odeur de carottes et de curry ? Votre soupe de carottes au curry est maintenant prête. Bonne dégustation !"
+      ]
   },
 
   {
     "name": "Brownies",
+    "image":"/images/brownie.webp",
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "2",
     "mood": ["comfort"],
@@ -32,6 +42,7 @@
 
   {
     "name": "Tomates cerises farcies au fromage",
+    "image":"/images/tomates.webp",
     "season": ["summer", "spring"],
     "duration": "1",
     "mood": ["comfort", "energy"],
@@ -42,6 +53,7 @@
 
   {
     "name": "Guacamole",
+    "image":"/images/guacamole.jpeg",
     "season": ["autumn", "summer", "spring"],
     "duration": "1",
     "mood": ["comfort", "energy", "healthy"],
@@ -52,6 +64,7 @@
 
   {
     "name": "Pâtes au pesto de basilic",
+    "image":"/images/pates-au-pesto-de-basilic.jpeg",
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "1",
     "mood": ["comfort", "energy", "healthy"],
@@ -68,6 +81,7 @@
 
   {
     "name": "Cake aux olives et jambon",
+    "image":"/images/cakeolive.webp",
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "2",
     "mood": ["comfort", "energy", "healthy"],
@@ -85,6 +99,7 @@
   },
   {
     "name": "Gaspacho",
+    "image":"/images/gaspacho.jpeg",
     "season": ["summer", "spring"],
     "duration": "2",
     "mood": ["energy", "healthy"],
@@ -103,6 +118,7 @@
 
   {
     "name": "Taboule maison",
+    "image":"/images/taboule.webp",
     "season": ["summer", "spring"],
     "duration": "1",
     "mood": ["healthy"],
@@ -120,6 +136,7 @@
 
   {
     "name": "Pancake",
+    "image":"/images/pancake.jpeg",
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "2",
     "mood": ["comfort"],
@@ -303,7 +320,7 @@
       "ciboulette",
       "moutarde"
     ],
-    "description":[
+    "details":[
       "4 personnes",
       "4 blinis", "1 tranche de saumon fumé", "1 c.à c. de moutarde", "5 c.à s. de crème fraîche épaisse", "ciboulette", "citron",
       "Etape 1 : Griller les mini blinis et les couper en deux.",
