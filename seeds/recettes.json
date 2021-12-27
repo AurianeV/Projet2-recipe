@@ -2,6 +2,7 @@
   {
     "name": "Soupe au curry",
     "season": ["winter", "autumn"],
+    "image":"",
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner"],
@@ -16,14 +17,6 @@
       "bouillon volaille",
       "crème",
       "sel"
-    ],
-    "description":[
-      "4 personnes",
-      "4 blinis", "1 tranche de saumon fumé", "1 c.à c. de moutarde", "5 c.à s. de crème fraîche épaisse", "ciboulette", "citron",
-      "Etape 1 : Griller les mini blinis et les couper en deux.",
-      "Étape 2 : Couper le saumon en petits morceaux.",
-      "Étape 3 : Mélanger la crème fraiche, le citron et la moutarde.",
-      "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."
     ]
   },
 
@@ -309,6 +302,14 @@
       "saumon fume",
       "ciboulette",
       "moutarde"
+    ],
+    "description":[
+      "4 personnes",
+      "4 blinis", "1 tranche de saumon fumé", "1 c.à c. de moutarde", "5 c.à s. de crème fraîche épaisse", "ciboulette", "citron",
+      "Etape 1 : Griller les mini blinis et les couper en deux.",
+      "Étape 2 : Couper le saumon en petits morceaux.",
+      "Étape 3 : Mélanger la crème fraiche, le citron et la moutarde.",
+      "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."
     ]
   },
 
