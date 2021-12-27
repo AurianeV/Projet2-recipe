@@ -4,10 +4,14 @@
 
 {{#each myRecipes}}
 
-<article>
 
-  {{!-- <img src="{{this.img}}" alt="soupe" /> --}}
-    <a>Quoi de mieux qu’une soupe pour se régaler et se réchauffer à table alors que l’hiver a pointé le bout de son nez ? Excepté le potage ou le velouté, oui, la soupe faite maison réunit tous les critères pour nous réconforter sans nous user ni nous lasser... </a>
+
+<article>
+  <img src="{{this.img}}" alt="soupe" />
+    
+    <a>
+      <h3>{{name}}</h3> <br>
+         {{description}} </a>
 </article>
     
   <div class="timebutton"> 

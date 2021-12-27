@@ -1,4 +1,4 @@
-const recipes = [
+[
   {
     "name": "Soupe au curry",
     "season": ["winter", "autumn"],
@@ -16,6 +16,14 @@ const recipes = [
       "bouillon volaille",
       "crème",
       "sel"
+    ],
+    "description":[
+      "4 personnes",
+      "4 blinis", "1 tranche de saumon fumé", "1 c.à c. de moutarde", "5 c.à s. de crème fraîche épaisse", "ciboulette", "citron",
+      "Etape 1 : Griller les mini blinis et les couper en deux.",
+      "Étape 2 : Couper le saumon en petits morceaux.",
+      "Étape 3 : Mélanger la crème fraiche, le citron et la moutarde.",
+      "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."
     ]
   },
 
@@ -288,6 +296,7 @@ const recipes = [
 
   {
     "name": "Bouchées blinis et saumon",
+    "description": "Découvrez la recette de Blinis au saumon et au fromage frais à faire en 20min. Ces petites bouchées apéritives saccorderont parfaitement à vos menus de fête.",
     "season": ["autumn", "summer", "spring"],
     "duration": "1",
     "mood": ["comfort"],
@@ -305,6 +314,7 @@ const recipes = [
 
   {
     "name": "Empanadas au bœuf, olives et tomates séchées",
+    "description": "Découvrez la recette de Blinis au saumon et au fromage frais à faire en 20min. Ces petites bouchées apéritives saccorderont parfaitement à vos menus de fête.",
     "season": ["summer", "spring"],
     "duration": "3",
     "mood": ["healthy", "energy"],
@@ -379,6 +389,7 @@ const recipes = [
       "fromage chevre"
     ]
   },
+
   {
     "name": "Salade chèvre, lardons et champignon",
     "season": ["summer", "spring"],
@@ -395,6 +406,7 @@ const recipes = [
       "fromage chevre"
     ]
   },
+
   {
     "name": "Salade aux deux pommes et au hareng fumé",
     "season": ["summer", "spring", "winter"],
@@ -412,6 +424,7 @@ const recipes = [
       "jaune d'oeuf"
     ]
   },
+
   {
     "name": "Aubergines a la parmigiana",
     "season": ["summer", "spring", "winter"],
@@ -429,6 +442,7 @@ const recipes = [
       "ail"
     ]
   },
+
   {
     "name": "Gateau au yaourt",
     "season": ["summer", "spring", "winter"],
@@ -446,6 +460,7 @@ const recipes = [
       "levure chimique"
     ]
   },
+
   {
     "name": "Quiche sans pate",
     "season": ["summer", "spring", "winter", "autumn"],
@@ -463,6 +478,7 @@ const recipes = [
       "noix de muscade"
     ]
   },
+
   {
     "name": "Tartines de tapenade verte au chèvre et basilic",
     "season": ["summer", "spring", "winter", "autumn"],
@@ -480,6 +496,7 @@ const recipes = [
       "huile d'olive"
     ]
   },
+
   {
     "name": "Frittata aux champignons",
     "season": ["winter", "autumn"],
@@ -497,6 +514,7 @@ const recipes = [
       "ciboulette"
     ]
   },
+
   {
     "name": "Terrine de foie gras mi-cuit marbré aux figues",
     "season": ["winter", "autumn"],
@@ -513,6 +531,7 @@ const recipes = [
       "sel"
     ]
   },
+
   {
     "name": "Fondue de poireaux",
     "season": ["winter", "autumn"],
@@ -522,6 +541,7 @@ const recipes = [
     "difficulty": "easy",
     "ingredient": ["poireaux", "creme fraiche", "beurre"]
   },
+
   {
     "name": "Noix de Saint-Jacques à l'orange",
     "season": ["winter", "autumn"],
@@ -538,6 +558,7 @@ const recipes = [
       "creme d'amande"
     ]
   },
+
   {
     "name": "Risotto",
     "season": ["winter", "autumn"],
@@ -557,6 +578,7 @@ const recipes = [
       "beurre"
     ]
   },
+
   {
     "name": "Patate douce rôtie au four",
     "season": ["winter", "autumn"],
@@ -573,6 +595,7 @@ const recipes = [
       "ciboulette"
     ]
   },
+
   {
     "name": "Potimarrons farcis aux champignons, épinards, féta et graines de courge",
     "season": ["winter", "autumn"],
@@ -590,12 +613,12 @@ const recipes = [
       "oignon"
     ]
   },
+
   {
     "name": "Boeuf Wellington",
     "season": ["winter", "autumn"],
     "duration": "3",
-    "img": Image("/images/fav.png"),
-    'time': '4mins',
+    "time": "4mins",
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
     "difficulty": "medium",
@@ -609,27 +632,7 @@ const recipes = [
       "beurre",
       "foie gras cru"
     ]
-    // 'description': {
-     // '1': 'blablabla'
-   // }
   }
 ]
 
-const Recipe = require('../model/Recipe')
-const mongoose = require('mongoose');
-const { urlencoded } = require('body-parser');
-mongoose.connect('mongodb://localhost/Projet2-recipe')
-.then(function (){
-    console.log('connected to mongodb');
-    Recipe.create(recipes)
-    .then(createdRecipes => {
-      console.log(`${createdRecipes.length} recettes sont crées`)
-    })
-    .catch(error => {
-      console.log(`ERROR lors de creation des recettes : ${error}`)
-    })
-})
-.catch (error => {
-    console.log ('Error! connection to mongodb', error);
-})
 

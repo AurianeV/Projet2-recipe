@@ -4,13 +4,20 @@
         Whats your mood?
     </h1>
 <div>
-    <button class="inscription" onclick="window.location.href = 'https://projet2-recipe.herokuapp.com/signup';">
-        Je m'inscris
-    </button>
 
-    <button class="connexion">
-        Je me connecte
-    </button>
+    <form action="/signup" method="get">
+        <button class="inscription">
+            Je m'inscris
+        </button>
+    </form>
+
+    <form action="/login" method="get">
+       <button class="connexion">
+            Je me connecte
+        </button>
+    </form>
+    
+
 </div>
     <p>
         Trouve une recette en fonction de ce que tu as dans ton frigo,
