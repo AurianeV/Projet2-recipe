@@ -1,9 +1,11 @@
 [
   {
     "name": "Soupe au curry",
+    "description":"Et si vous appreniez à préparer une soupe à la carotte qui plaira à coup sûr, ça vous dit ? Un velouté de carottes au curry original et savoureux qui risque de surprendre votre famille. C’est certain, vous allez les épater, il n’y a rien de meilleur qu’une succulente soupe maison.",
     "season": ["winter", "autumn"],
-    "image":"",
+    "image":"/images/soupe1.png",
     "duration": "2",
+    "time":"30min",
     "mood": ["healthy"],
     "type": ["diner"],
     "difficulty": "easy",
@@ -17,42 +19,81 @@
       "bouillon volaille",
       "crème",
       "sel"
-    ]
+    ],
+      "personne": "4 personnes",
+      "ingredients": "600 g de carottes, 6 portions de Vache qui rit ® ou Carré Frais ®, 2 oignons, 1 c.à café de curry, 2 cubes de bouillon de volaille, 2 c.à soupe d'huile d'olive, 1 l d'eau",
+      "Étapes": [ "Étape 1 : Commencez par éplucher vos légumes et coupez-les en morceaux.",
+      "Étape 2 : Dans une poêle, faites chauffer l'huile d'olive et ajoutez les légumes. Mélangez et saupoudrez de curry. Goûtez votre soupe afin de savoir s’il est nécessaire de rajouter du curry ou non. Ajoutez l'eau et les cubes de bouillon puis laissez cuire 15 min environ.",
+      "Étape 3 : Votre préparation est maintenant presque terminée, il ne vous reste plus qu’à utiliser votre mixeur plongeant pour obtenir la consistance désirée et à ajouter les portions de fromages et à les laisser fondre.",
+      "Étape 4 : Vous sentez la bonne odeur de carottes et de curry ? Votre soupe de carottes au curry est maintenant prête. Bonne dégustation !"
+      ]
   },
 
   {
     "name": "Brownies",
+    "description": "Gâteau au chocolat, aux noix et aux amandes.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/brownies.png",
     "duration": "2",
     "mood": ["comfort"],
     "type": ["dessert", "brunch", "petit-dejeuner"],
     "difficulty": "easy",
-    "ingredient": ["chocolat", "beurre", "sucre", "farine", "oeuf"]
+    "ingredient": ["chocolat", "beurre", "sucre", "farine", "oeuf", "amande", "noix", "levure chimique"
+    ],
+    "personne": "6 personnes",
+    "ingredients": "165g de sucre, 130g de farine, 80g de beurre demi-sel, 25g d'amandes, 135g de chocolat noir, 2 oeufs, 25g de noix, 0,5 c. à c. de levure",
+    "Etapes": ["Etape 1 : Faire fondre le beurre et chocolat à feu doux.",
+    "Etape 2 : Y ajouter les oeufs, puis le sucre, la farine et la levure.",
+    "Etape 3 : Mélanger et ajouter les noix et les amandes.",
+    "Etape 4 : Cuire 1/4 d'heure à 210°C (four préchauffé).",
+    "Etape 5 : Servir tiède. Accompagner d'une crème anglaise."
+  ]
   },
 
   {
     "name": "Tomates cerises farcies au fromage",
+    "description": "Voici une idée d'apéritif simple et rapide à faire.",
     "season": ["summer", "spring"],
+    "image": "images/Tomate-farcie-fromage.png",
     "duration": "1",
     "mood": ["comfort", "energy"],
     "type": ["diner", "brunch", "dejeuner", "apero"],
     "difficulty": "easy",
-    "ingredient": ["tomate", "fromage frais", "persil", "ciboulette"]
-  },
+    "ingredient": ["tomate", "fromage frais", "persil", "ciboulette"],
+    "personne": "10 personnes",
+    "ingredients": "50 tomates cerise, 500 g de fromage frais, Persil, 0,5 bouquet de persil, Ciboulette, 0,5 bouquet de ciboulette",
+    "Etapes": ["Etape 1 : Laver les tomates cerises. Les découper en deux. Les vider.",
+      "Etapes 2 : Ciseler le persil et la ciboulette.",
+      "Etapes 3 : Farcir les tomates cerises de fromage frais. Ajouter quelques bouts de persil et de ciboulette ciselés sur chaque tomate cerise. Servir."
+      ]
+    },
 
   {
     "name": "Guacamole",
+    "description": "Et si vous appreniez à faire le guacamole vous même ?",
     "season": ["autumn", "summer", "spring"],
+    "image": "/images/Guacamole.png",
     "duration": "1",
     "mood": ["comfort", "energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner", "petit-dejeuner", "apero"],
     "difficulty": "easy",
-    "ingredient": ["avocat", "oignon", "tomate", "citron vert", "tabasco"]
+    "ingredient": ["avocat", "oignon", "tomate", "citron vert", "tabasco"],
+    "personne": "4 personnes",
+    "ingredients": "2 avocats bien mûrs, 1 tomate, 1 oignon blanc, Tabasco, 0,5 citron vert (jus), Coriandre fraiche, Sel ou sel fin",
+    "Etapes": ["Etape 1 : Ouvrir et dénoyauter les avocats.",
+      "Etape 2 : Récupérer la chair avec une cuillère à soupe et la placer dans un large bol. Écraser à la fourchette (surtout pas au mixeur!!).",
+      "Etape 3 : Ajouter la tomate coupées en dés en gardant le jus qui est acide et qui va empêcher l'oxydation de l'avocat.",
+      "Etape 4 : Ajouter quelques gouttes de Tabasco selon votre goût, la coriandre fraîche, lavée et ciselée, le jus de citron vert, les petits dés d'oignon blanc et le sel.",
+      "Etape 5 : Mélanger le tout puis ajuster l'assaisonnement si besoin."
+    ]
+
   },
 
   {
     "name": "Pâtes au pesto de basilic",
+    "description": "Rien de tel qu'un bon pesto maison ! Une recette simple à réaliser pour un maximum de saveurs...",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/pates-pesto.png",
     "duration": "1",
     "mood": ["comfort", "energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner"],
@@ -63,12 +104,23 @@
       "ail",
       "basilic",
       "pignons de pin"
+    ],
+    "personne": "2 personnes",
+    "ingredients": "1 c. à s. de confit de tomates séchées, 3 cl d'huile d'olive ou 3 cl d'huile d'olive vierge extra, 25 g de parmesan râpé, 50 g de basilic frais, 0,5 gousse d'ail",
+    "Etapes": ["Etape 1 :Faire griller les pignons de pin à sec dans une poêle sur feu moyen. Quelques minutes suffisent. Ne les laissez pas sans surveillance.",
+    "Etape 2 :Piler la demi-gousse d'ail et laver les feuilles de basilic. Mixer les pignons de pin, l'ail, le basilic et le parmesan au robot jusqu'à obtention d'une pâte homogène.",
+    "Etape 3 :Transférer la pâte dans un petit saladier, ajouter le confit de tomates séchées. Puis incorporer l'huile petit à petit et réserver.",
+    "Etape 4 :Faire cuire les spaguettis 10 min dans une grande casserole d'eau bouillante salée. Quand ils sont cuits, les mettre dans une sauteuse assez grande et ajouter le pesto.",
+    "Etape 5 :Remuer, sur feu moyen, jusqu'à ce que les pâtes soient bien imprégnées de pesto et servir aussitôt !"
     ]
+
   },
 
   {
     "name": "Cake aux olives et jambon",
+    "description": "Facile et délicieux ! La recette de ma coiffeuse !",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image":"/images/cake-aux-olives-et-jambon.png",
     "duration": "2",
     "mood": ["comfort", "energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner", "petit-dejeuner"],
@@ -81,11 +133,20 @@
       "gruyere",
       "vin blanc",
       "levure"
+    ],
+    "personne": "6 personnes",
+    "ingredients": "250 g de farine, 200 g de jambon cuit, 200 g d'olives dénoyautées, 150 g de gruyère, 4 oeufs, 2 dl de vin blanc sec, 0,5 dl d'huile, 1 sachet de levure",
+    "Etapes": ["Etape 1 :Mélanger 250g de farine et 4 oeufs. Ajouter 1/2 dl d'huile, 2 dl de vin blanc sec.",
+    "Etape 2 :Blanchir 200g d'olives dénoyautées pour retirer l'excédent de sel. Pour cela, rincez les olives et plongez-les olives dans l'eau bouillante 15 secondes. Retirez la casserole du feu et laissez les olives blanchir 2 à 3 minutes. Les rincer à l'eau froide.",
+    "Étape 3 :Ajouter les olives ainsi que 200g de jambon cuit, 150g de gruyère râpé et un sachet de levure à la préparation.",
+    "Étape 4 :Faire cuire dans un moule à cake beurré ou chemisé (Th.5 ou 150°C) pendant 35 à 45 mn. Piquer pour vérifier la cuisson."
     ]
   },
   {
     "name": "Gaspacho",
+    "description": "Une soupe froide de légumes d'été, qui se déguste fraîche avec des croûtons ailés.",
     "season": ["summer", "spring"],
+    "image":"/images/Gaspacho.png",
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner", "apero"],
@@ -98,12 +159,27 @@
       "ail",
       "poivron rouge",
       "oignon"
-    ]
+    ],
+    "personne": "4 personnes",
+    "ingredients": "1kg de tomates, 1 concombre, 1 poivron vert, 150g de mie de pain, 4c.à s d'huile d'olive, 2c. à c de sucre, 0.5c. à c de piments, 3 gousses d'ail, 1 poivron rouge, 1 oignon, 30 cl d'eau, 3c. à c. de vinaigre de xérès, 2 c. à c. de sel ou sel fin, Poivre",
+    "Etapes": ["Etape 1 : Dans un bol, dispoez 150g de pain de mie. Arrosez-le de 2 c à s d'huile d'olive.",
+   "Etape 2 : Lavez, épluchez et ôtez les pépins du concombre. Coupez-le en tronçons de 2 cm environ.",
+   "Etape 3 : Lavez, épépinez, et coupez les poivrons en morceaux.",
+   "Etape 4 : Lavez, coupez en quartiers les tomates. Retirez les pépins des tomates.",
+   "Etape 5 : Epluchez un oignon et coupez-le en morceau. Epluchez les 3 gousses d'ail.",
+   "Etape 6 : Dans le bol d'un blender, déposez le pain de mie",
+   "Etape 7 : Ajoutez à nouveau 2 c à s d'huile d'olive. Ajoutez également 2 c à c de sucre, 1/2 c à c de piment d'Espelette et 2 c à c de sel. Ajoutez 3 c à s de vinaigre de Xérès.",
+   "Etape 8 : Ajoutez les poivrons, le concombre, l'oignon et les gousses d'ail. Terminez par les tomates. Mixez le tout pour obtenir un mélange homogène. Rectifiez l'assaisonnement si besoin. Si le gaspacho est trop épais, détendez-le en ajoutant un peu d'eau. Placez le gaspacho au réfrigérateur pendant au moins 3 heures.",
+   "Etape 9 : Décorez avec quelques légumes en morceaux. Dégustez à l'apéro ou en entrée !"
+  ]
+  
   },
 
   {
     "name": "Taboule maison",
+    "description": "Ma recette du taboulé. Un plat que l'on prépare à l'avance. Idéal pour un pique-nique ou un barbecue entre amis !",
     "season": ["summer", "spring"],
+    "image": "/images/Taboule-maison.png",
     "duration": "1",
     "mood": ["healthy"],
     "type": ["diner", "brunch", "dejeuner"],
@@ -115,11 +191,21 @@
       "tomate",
       "citron",
       "menthe"
-    ]
+    ],
+    "personne":"8 personnes",
+    "ingredients": "500 g de tomates, 400 g de semoule, 2 concombres, 1 poivron rouge, 1 poivron vert, 1 poivron jaune, 6 tiges d'oignons nouveaux ou Cébettes, 20 cl d'huile d'olive, 3 citrons (jus), 0,5 botte de menthe, Piment d'Espelette, Sel ou sel fin, Poivre du moulin",
+    "Etapes":["Etape1 : Mettre la semoule dans un saladier avec le jus des citrons et l'huile d'olive. Détailler les tomates en petits cubes en gardant le jus qui s'écoule. Versez le jus des tomates sur la semoule. Eplucher les concombres et les tailler en dés avec le coeur.",
+      "Etape 2 : Peler les poivrons à l'aide d'un épluche légumes puis détailler la chair en petits dés. Ciseler les oignons en très fines lamelles, y compris leurs tiges. Ajouter les légumes à la semoule, mélanger et assaisonner.",
+      "Etape 3 : Réserver au frais 2 heures avant de servir. Ajouter la menthe ciselée au dernier moment et mélanger."
+      ]
+ 
+ 
   },
 
   {
     "name": "Pancake",
+    "description": "Après avoir cherché pendant 2 ans j'ai enfin trouvé THE recette de pancakes! A tester absolument.",
+    "image": "/images/Pancake.png",
     "season": ["winter", "autumn", "summer", "spring"],
     "duration": "2",
     "mood": ["comfort"],
@@ -133,42 +219,81 @@
       "oeuf",
       "levure",
       "sucre vanille"
+    ],
+    "personne":"8 personnes",
+    "ingredients": "300 g de farine, 90 g de sucre, 30 g de beurre, 30 cl de lait, 3 oeufs, 2 c. à c. de rhum, 2 c. à c. de kirsch, 1 sachet de sucre vanillé, 1 pincée de sel ou sel fin, 0,5 sachet de levure chimique",
+    "Etapes": ["Etape 1 : Dans un saladier, mettre la farine, le sucre, le sucre vanillé, le sel et la levure et faire un puits. Séparez les blancs des jaunes. Monter les blancs en neige. Faire fondre le beurre.",
+      "Etape 2 : Ajouter 15 cl de lait très progressivement sur les ingrédients secs, ainsi que les jaunes d'oeufs et fouettez pour éviter les grumeaux. Une fois la pâte homogène, rajouter doucement en remuant les 15 cl de lait restants et le beurre fondu et tiédi. Incorporer délicatement les blancs montés en neige, puis ajouter l'alcool si vous souhaitez en mettre. Votre pâte est prête, elle est épaisse et très aérée.",
+      "Etape 3 : Mettre au frais pendant une trentaine de minutes. Chauffez et graissez une poêle avec un peu de beurre ou d'huile à l'aide d'un papier absorbant.",
+      "Etape 4 : Déposez une petite louche de pâte dans la poêle. Dès qu'une multitude de petites bulles apparaissent à la surface vous pouvez retourner le pancake et poursuivre la cuisson. Procéder ainsi pour le reste de la pâte."
     ]
   },
 
   {
     "name": "Oeufs au bacon",
+    "description": "Le parfait petit déjeuner anglo-saxon.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Oeufs-au-bacon.png",
     "duration": "1",
     "mood": ["comfort"],
     "type": ["brunch", "dejeuner", "petit-dejeuner"],
     "difficulty": "easy",
-    "ingredient": ["bacon", "huile", "oeuf"]
+    "ingredient": ["bacon", "huile", "oeuf"],
+    "personne":"2 personnes",
+    "ingredients": "8 tranches de bacon, 4 oeufs, 2 c. à s. d'huile",
+    "Etapes":["Etape 1 : Dans une poêle chaude, mettez l'huile, cassez vos oeufs délicatement. Déposez vos tranches de bacon et faites cuire.",
+    "Etape 2 : Le blanc d'oeuf doit être cuit et le jaune coulant. Les tranches de bacon doivent être bien grillées.",
+    "Etape 3 : Accompagnez cette assiette de toasts grillés."
+    ]
+
   },
 
   {
     "name": "Feuilletés saucisses minute",
+    "description": "Délicieux petits fours à la saucisse qui régaleront vos convives à l'apéritif.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Feuilletés-saucisses-minute.png",
     "duration": "1",
     "mood": ["comfort"],
     "type": ["brunch", "dejeuner", "apero", "diner"],
     "difficulty": "easy",
-    "ingredient": ["saucisse", "pate feuilletee"]
+    "ingredient": ["saucisse", "pate feuilletee"],
+    "personne": "4 personnes",
+    "ingredients": "1 paquet de saucisses de Strasbourg ou saucisses Knackis, 1 pâte feuilletée",
+    "Etapes": ["Etape 1 : Préchauffez le four à 180°C. Déroulez votre pâte feuilletée et sortez vos saucisses",
+    "Etape 2 : Roulez vos saucisses dans la pâte. Coupez et disposez les saucisses sur la plaque du four, préalablement recouverte d'une feuille d'alu. Enfournez pour 20 minutes de cuisson environ.",
+    "Etape 3 : En ce qui concerne la forme des petits fours, c'est selon vos envies. Faites cuire vos délicieux petits fours pendant 10 minutes à 180°C. Sortez les du four et disposez les sur une assiette ou un petit plat, dégustez les sans attendre."
+    ]
+  
   },
 
   {
-    "name": "Oeufs au bacon",
+    "name": "Scotch egg ou œuf écossais",
+    "description": "Des oeufs coque frits originaux avec leur enveloppe de chair à saucisses aux saveurs de l'Ecosse !",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Scotch-egg.png",
     "duration": "1",
     "mood": ["comfort"],
     "type": ["brunch", "dejeuner", "petit-dejeuner"],
-    "difficulty": "easy",
-    "ingredient": ["bacon", "huile", "oeuf"]
+    "difficulty": "medium",
+    "ingredient": ["bacon", "huile", "oeuf", "saucisse", "chaplure, lait, farine", "maizena"],
+    "personne":"4 personnes",
+    "ingredients": "450 g de chair à saucisse, 125 g de chapelure, 45 g de moutarde forte, 5 cl de lait entier, 10 oeufs, 3 c. à s. de farine, 2 c. à s. de fécule de maïs Maïzena, 0,5 c. à c. de paprika",
+    "Etapes": ["Etape 1 : Placez 8 oeufs dans une grande casserole d'eau froide. Couvrez et placez sur feu vif. Quand l'eau arrive à ébullition, retirez la casserole du feu et laissez reposer 3 minutes. Après 3 minutes transférez-les dans un récipient d'eau froide avec de la glace. Laissez-les refroidir 10 à 15 minutes.",
+    "Etape 2 : Versez dans un mixeur la chair à saucisses, le paprika, la maïzena, la moutarde et un peu d'eau froide. Salez et poivrez. Mixez le tout.",
+    "Etape 3 : Formez 8 portions de chair à saucisses de 55g chacune environ. Enlevez délicatement les coquilles d'oeufs (attention, ils sont fragiles). Aplatissez chaque portion de chair à saucisses sur du film plastique. Posez un oeuf au milieu et enfermez-le avec de la chair à saucisses à l'aide du film plastique que vous refermez avec beaucoup de précaution. Placez les oeufs 30 minutes au frais.",
+    "Etape 4 : Mélangez la farine avec du sel et du poivre dans une assiette. Battre les oeufs et le lait dans une autre assiette. Mettre la chapelure dans une troisième assiette.",
+    "Etape 5 : Trempez alternativement chaque boulette dont vous aurez retiré le plastique dans la farine(retirez doucement l'excédent), dans les oeufs battus et dans la chapelure. Déposez les oeufs dans un plat et réservez-les au frais pendant  20 minutes. Faites chauffer la friteuse à 190°C et le four à 190°C ou Th.6/7.",
+    "Etape 6 : Faites frire les oeufs deux par deux dans la friture pendant 2 minutes. Ils doivent être dorés. Déposez-les dans un plat allant au four. Quand ils sont tous frits, placez-les au four pendant une dizaine de minutes. Servez immédiatement."
+    ]
+
   },
 
   {
     "name": "Tiramisu léger fraises spéculos",
+    "description": "Léger et gourmand.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Tiramisu-spéculos.png",
     "duration": "2",
     "mood": ["comfort", "healthy"],
     "type": ["brunch", "dessert"],
@@ -180,12 +305,25 @@
       "sucre",
       "oeuf",
       "fromage-blanc"
+    ],
+    "personne":"8 personnes",
+    "ingredients": "500 g de fraises ou framboises, 300 g de fromage blanc, 16 spéculoos, 3 oeufs, 60 g de sucre, Vanille",
+    "Etapes":["Etape 1 : Battre le sucre avec les jaunes d'oeufs afin d'obtenir un mélange blanchi.",
+      "Etape 2 : Ajouter le fromage blanc et la vanille (extrait ou grains d'une gousse).",
+      "Etape 3 : Battre les blancs d'oeufs en neige et ajouter délicatement à la précédente préparation. Réserver au frais.",
+      "Etape 4 : Laver, équeuter et les fraises.",
+      "Etape 5 : Écraser les spéculos en miettes.",
+      "Etape 6 : Préparer les verrines en alternant spéculos, fraises et crème vanillée. Terminer par quelques miettes de spéculos et une fraise entière. Réserver au frais."
+
     ]
+
   },
 
   {
     "name": "Gratin courgettes-pommes de terre",
+    "description": "On aime ce gratin de courgettes et de pommes de terre. Les légumes cuisent dans un mélange de lait, de crème et de noix de muscade.",
     "season": ["winter", "autumn", "spring"],
+    "image": "/images/Gratin-courgettes-pommes.png",
     "duration": "2",
     "mood": ["comfort", "healthy"],
     "type": ["dejeuner", "diner"],
@@ -197,12 +335,22 @@
       "courgettes",
       "beurre",
       "origan"
+    ],
+    "personne":"6 personnes",
+    "ingredients": "700 g de courgettes, 700 g de pommes de terre, 50 cl de crème fraîche (épaisse ou liquide), 200 g de fromage râpé, 1 verre de lait, Noix de muscade, Sel de Guérande, 5 poivre 5 baies, 2 gousses d'ail",
+    "Etapes":["Etape 1 : Préparation des légumes et de la sauce: Lavez, épluchez et coupez les pommes de terre en fines rondelles. Lavez, essuyez et coupez les courgettes en fines rondelles. Beurrez un plat à gratin avec un mélange beurre-ail écrasé. Mélanger la crème fraîche et le lait dans un saladier, ajoutez de la noix de muscade râpée, le sel et le poivre, vérifiez et rectifiez l'assaisonnement si nécessaire. ",
+      "Etape 2 : Montage du gratin: Disposez une première couche fine de pommes de terre dans le plat, disposez ensuite une couche de courgette. Continuez ainsi jusqu'à épuisement des légumes en terminant par les pommes de terre. Versez le mélange crème-lait-muscade et bougez doucement le plat pour que tout le liquide se répartisse dans le plat. Préchauffez le four à 190°C et répartissez le fromage râpé sur le dessus du plat.",
+      "Etape 3 : La cuisson: Enfournez pendant 1 heure. Si le graton dore de trop, recouvrez le plat d'une feuille de papier sulfurisé. Après 50 minutes de cuisson, vérifiez la cuisson des pommes de terre à l'aide d'une pointe de couteau. Elles doivent être tendres. Arrêtez ou continuez la cuisson selon les cas qui dépendent essentiellement de la variété de pommes de terre utilisée."
     ]
+  
+  
   },
 
   {
     "name": "Sandwich au poulet",
+    "description": "Un délicieux sandwich aux saveurs méditerranéennes et à la mayonnaise qui ravira petits et grands !",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Sandwich-poulet.png",
     "duration": "1",
     "mood": ["comfort", "healthy", "energy"],
     "type": ["brunch", "dejeuner", "diner"],
@@ -214,12 +362,25 @@
       "persil",
       "salade",
       "ail"
+    ],
+    "personne":"4 personnes",
+    "ingredients": "Pour le sandwich: 1 baguette, 2 tranches d'escalopes de poulet. Marinade:  1 pot de tomates séchées,1 gousse d'ail pilées, 1 c. à s. de persil cisèlé, 1 c. à s. d'huile d'olive, Mayonnaise de Dijon, 0,5 jus de citron, Pousse de salade ,Poivre, Sel ou sel fin",
+    "Etapes": ["Etape 1 : A l'avance, préparer la marinade et faire mariner les 4 escalopes de poulet pendant au moins 15 minutes.",
+      "Etape 2 : Puis faire griller à feu vif les escalopes de poulet marinées dans une poêle anti-adhésive. Laver et égoutter les pousses de salade.",
+      "Etape 3 : Couper la baguette en 4 parts égales. Ouvrir chaque part en deux.",
+      "Etape 4 : Tartiner les 8 tranches de baguette avec la Mayonnaise de Dijon® Amora.",
+      "Etape 5 : Déposer les tomates séchées sur les 4 tranches inférieures.",
+      "Etape 6 : Recouvrir avec 1 escalope de poulet.",
+      "Etape 7 :Recouvrir de quelques feuilles de salade et refermer le sandwich."
+        
     ]
   },
 
   {
     "name": "Tarte aux pommes traditionnelle",
+    "description": "Une délicieuse tarte aux pommes à déguster tiède avec une belle boule de glace vanille.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Tarte-pommes-traditionnelle.png",
     "duration": "2",
     "mood": ["comfort"],
     "type": ["dessert"],
@@ -230,12 +391,26 @@
       "pommes",
       "sucre vamille",
       "fleur d'oranger"
-    ]
+    ],
+    "personne":"4 personnes",
+    "ingredients": "250 g de farine, 125 g de beurre, 5 g de sel ou sel fin, 5 cl d'eau. Compote de pomme : 6 pommes, Fleur d'oranger, Sucre vanillé",
+    "Etapes":["Etape 1 : La pâte brisée: Dans un grand saladier, versez la farine, le beurre et ajoutez une pincée de sel. Incorporez le beurre du bout des doigts, ajoutez l'eau et mélangez juste assez pour former une boule de pâte. Préchauffez le four à 180°C ou Th.6.",
+      "Etape 2 : Pré-cuisson de la pâte: Étalez la pâte puis garnissez un moule à tarte classique, préalablement beurré. A l'aide d'une fourchette, piquez le fond de la pâte puis faites cuire la pâte à blanc pendant 10 minutes environ.",
+      "Etape 3 : Préparation des pommes: Pelez les pommes, coupez 4 pommes en lamelles et ajoutez un peu de jus de citron pour éviter qu'elles noircissent. Faites une compote avec le reste des pommes. Dans un saladier, mélangez la compote de pommes, le sucre vanillé, 1 cuillère à soupe d'eau de fleur d'oranger et répartissez-la sur la pâte cuite à blanc. ",
+      "Etape 4 : Cuisson de la tarte: Disposez les lamelles de pommes sur la compote en rosace puis enfournez votre tarte pour 35 à 40 minutes."
+
+
+    ] 
+  
+  
+  
   },
 
   {
     "name": "Risotto alla parmigiana",
+    "description": "Simple et pourtant ce risotto est une vraie merveille. Savoureux, gourmand et délicieux.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Risotto-parmigiana.png",
     "duration": "3",
     "mood": ["comfort"],
     "type": ["dejeuner", "diner"],
@@ -247,12 +422,22 @@
       "creme liquide",
       "vin blanc",
       "parmesan"
+    ],
+    "personne":"2 personnes",
+    "ingredients": "70 g de riz Riso Gallo, 50 g de parmesan râpé, 0,5 oignon (gros), 20 g de beurre, 1 c. à s. de crème liquide, Huile d'olive, 10 cl de vin blanc sec, 0,75 l d'eau, 1 cube de bouillon de légumes",
+    "Etapes": ["Etape 1 : Éplucher et émincer l'oignon. Faire chauffer une poêle avec un filet d'huile d'olive. Ajouter l'oignon émincé et faire légèrement colorer.",
+      "Etape 2 : Ajouter ensuite le riz et le rissoler pendant quelques secondes, le temps que le riz devienne légèrement transparent et s'imprègne d'huile. Ajouter un demi verre de vin blanc sec et laisser le évaporer .",
+      "Etape 3 : Faire bouillir le volume d'eau et ajouter le cube de bouillon de légumes. Ajouter progressivement la totalité du bouillon petit à petit dans la poêle. A la fin de la cuisson, retirer la poêle du feu.",
+      "Etape 4 : Ajouter le parmesan râpé et la noix de beurre. Saler et poivrer légèrement. Ajouter la cuillère de crème liquide et mélanger le tout hors du feu."
+
     ]
   },
 
   {
     "name": "Ratatouille",
+    "description": "Simple et savoureuse, cette ratatouille accompagnera parfaitement vos viandes et poissons.",
     "season": ["summer", "spring"],
+    "image": "/images/Ratatouille.png",
     "duration": "3",
     "mood": ["healthy", "energy"],
     "type": ["dejeuner", "diner"],
@@ -265,12 +450,21 @@
       "echalote",
       "ail",
       "oignon"
+    ],
+    "personne": "4 personnes",
+    "ingredients": "300 g de poivrons, 100 g de tomates cerise, 100 g de courgettes, 20 cl de coulis de tomate, 1 gousse d'ail, 1 oignon (petit), 1 échalote, 3 c. à s. de ketchup Amora, 1 c. à s. d'huile d'olive",
+    "Etapes":["Etape 1 : Lavez les légumes. Taillez les poivrons en dés, les courgettes en rondelles et les tomates en quartiers. Taillez très finement en petits dés, l'échalote et l'oignon. Pelez, dégermez et écrasez la gousse d'ail.",
+    "Etape 2 : Sautez l'ail, l'échalote et l'oignon à la poêle, dans l'huile chaude. Ajoutez les légumes et faites cuire une dizaine de minutes à feu moyen.",
+    "Etape 3 : Ramenez à feu doux et ajoutez le coulis de tomates. Faites cuire à couvert environ 30 minutes.",
+    "Etape 4 : Avant de servir, ajoutez le ketchup. Rectifiez l'assaisonnement selon votre goût."
     ]
   },
 
   {
     "name": "Wok de légumes",
+    "description": "Des légumes tendres, des queues de crevettes et des nouilles chinoises revenus dans l'huile d'olive avec de la sauce soja, à servir avec une sauce ketchup/soja. Pour un repas exotique, facile et équilibré, pensez au wok de légumes.",
     "season": ["winter", "autumn", "summer", "spring"],
+    "image": "/images/Wok-légumes.png",
     "duration": "2",
     "mood": ["healthy", "energy"],
     "type": ["dejeuner", "diner"],
@@ -284,6 +478,16 @@
       "sauce soja",
       "mais",
       "poivrons"
+    ],
+    "personne": "4 personnes",
+    "ingredients": "250 g de nouilles, 250 g de queues de crevettes, 200 g de pois gourmands, 2 poivrons, 1 tête de brocolis, 1 boite de mini maïs, 3 c. à s. de ketchup Amora, 2 c. à s. de sauce soja, 2 c. à s. d'huile de tournesol, Poivre du moulin",
+    "Etapes": ["Etape 1 : Lavez soigneusement tous les légumes. Détaillez le brocoli en petits bouquets.",
+    "Étape 2 : Lavez soigneusement tous les légumes. Détaillez le brocoli en petits bouquets.",
+    "Étape 3 : Plongez les nouilles dans une grande casserole d'eau bouillante salée et laissez-les cuire 2 min, en les séparant avec une fourchette. Egouttez-les et réservez.",
+    "Etape 4 : Versez les crevettes et les légumes dans un wok avec l'huile, et laissez revenir à feu vif 2 min environ. Ajoutez 20 cl d'eau, 1 cuillère à soupe de sauce soja et continuez la cuisson pendant 5 min.",
+    "Etape 5 : Quand les légumes sont tendres et le bouillon presque évaporé, poivrez au moulin et versez-les dans 4 bols.",
+    "Etape 6 : Faites sauter aussitôt les nouilles dans le wok pendant 1 min et servez-les à part.", 
+    "Etape 7 : Préparez la sauce en mélangeant le ketchup avec 1 cuillère à soupe de sauce soja."
     ]
   },
 
@@ -295,27 +499,28 @@
     "mood": ["comfort"],
     "type": ["brunch", "apero"],
     "difficulty": "easy",
+    "personne":"4 personnes",
     "ingredient": [
       "blinis",
       "creme fraiche epaisse",
       "citron",
       "saumon fume",
       "ciboulette",
-      "moutarde"
-    ],
-    "description":[
-      "4 personnes",
-      "4 blinis", "1 tranche de saumon fumé", "1 c.à c. de moutarde", "5 c.à s. de crème fraîche épaisse", "ciboulette", "citron",
-      "Etape 1 : Griller les mini blinis et les couper en deux.",
+      "moutarde"],
+    
+    "ingredients": "4 blinis, 1 tranche de saumon fumé, 1 c.à c. de moutarde, 5 c.à s. de crème fraîche épaisse, ciboulette, citron",
+      
+    "Etapes":["Etape 1 : Griller les mini blinis et les couper en deux.",
       "Étape 2 : Couper le saumon en petits morceaux.",
       "Étape 3 : Mélanger la crème fraiche, le citron et la moutarde.",
       "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."
     ]
+    
   },
 
   {
     "name": "Empanadas au bœuf, olives et tomates séchées",
-    "description": "Découvrez la recette de Blinis au saumon et au fromage frais à faire en 20min. Ces petites bouchées apéritives saccorderont parfaitement à vos menus de fête.",
+    "description": "Oh qu’ils sont bons ces chaussons inspirés des empanadas mexicains",
     "season": ["summer", "spring"],
     "duration": "3",
     "mood": ["healthy", "energy"],
@@ -330,32 +535,59 @@
       "oignon",
       "ail",
       "concentre de tomates"
-    ]
+    ],
+    "personne":"10 personnes",
+    "ingredients": "2 pâtes brisée, 1 jaune d'oeuf, 1 c. à s. de lait. Pour la garniture: 200 g de boeuf haché, 50 g d'olives noires, 25 g de tomates séchées, 1 oignon, 1 gousse d'ail, 1 c. à c. de cumin en poudre, 0,25 c. à c. de piments, 4 c. à s. de concentré de tomates, Huile d'olive, Sel ou sel fin",
+    "Etapes": ["Etape 1 : Pelez l’ail et l’oignon, ciselez l’oignon et râpez l’ail. Faites chauffer 1 cuillère à soupe d’huile dans une poêle. Ajoutez l’oignon et faites-le revenir pendant 5 minutes. Ajoutez le boeuf et faites-le dorer 2 minutes. Ajoutez l’ail, les épices, le sel et le concentré de tomates. Mélangez bien. Ajoutez les olives et les tomates séchées coupés en dés et mélangez bien. Préchauffez votre four à 180°C.",
+      "Etape 2 : Détaillez dans chaque pâte 7 cercles de 9 cm de diamètre. Badigeonnez le pourtour des cercles de pâte avec un peu d’eau, déposez une cuillère à soupe bombée de farce sur la moitié inférieure des cercles. Rabattez la partie supérieure, scellez les bords avec vos doigts. Formez un bourrelet sur chaque empanadas. Badigeonnez les empanadas avec de l’huile d’olive puis enfournez pour 15 à 20 minutes, jusqu’à ce qu’ils soient bien dorés.",
+      "Etape 3 : Servez avec la salade lavée séchée et assaisonnée avec la vinaigrette."   
+     ]
   },
 
   {
     "name": "Entrecôte grillée et frites maison",
+    "description": "Un délicieux plat, une entrecôte avec des frites maison. On peut aussi le déguster le dimanche tellement c'est bon.",
     "season": ["winter", "autumn", "spring"],
+    "image": "/images/Entrecôte-frites.png",
     "duration": "2",
     "mood": ["comfort"],
     "type": ["dejeuner", "diner"],
     "difficulty": "easy",
-    "ingredient": ["pommes de terre", "entrecotes", "huile"]
+    "ingredient": ["pommes de terre", "entrecotes", "huile"],
+    "personne":"4 personnes",
+    "ingredients": "1 kg de pommes de terre Bintje, 4 entrecôtes, Huile de friture, Sel ou sel fin",
+    "Etapes": ["Etape 1 : Pelez les pommes de terre, les laver et les détailler en frites. Les laver de nouveau, puis les sécher.", 
+    "Etape 2 : Les placer dans votre huile de cuisson une première fois. Réservez pendant que vous préparez la viande.",
+    "Etape 3 : Poêlez 5 minutes vos entrecôtes dans une poêle beurrée pour une viande saignante et 10 min pour une bien cuite.",
+    "Etape 4 : Passez les frites une seconde fois dans l'huile de cuisson bien chaude, jusqu'à coloration.",
+    "Etape 5 : Disposez vos entrecôtes directement dans les assiettes, ajoutez un peu de sel. Servir les frites dans un grand plat en ayant pris soin de les saler légérement."
+  ]
   },
 
   {
     "name": "Tarte au thon",
+    "description": "Pâte à tatre feuilletée avec des miettes thon des rondeles de tomates et de sa crème fraîche.",
     "season": ["autumn", "summer", "spring"],
+    "image": "/images/Tarte-thon.png",
     "duration": "2",
     "mood": ["comfort", "energy"],
     "type": ["dejeuner", "diner", "apero"],
     "difficulty": "easy",
-    "ingredient": ["pate feuilletee", "tomates", "creme fraiche", "thon"]
+    "ingredient": ["pate feuilletee", "tomates", "creme fraiche", "thon"],
+    "personne":"6 personnes",
+    "ingredients": "1 pâte feuilletée, 20 cl de crème fraîche (20 cl), 3 tomates, 1 boite de thon au naturel, 1 c. à s. de moutarde, Sel ou sel fin, Poivre",
+    "Etapes":["Etape 1 : Préchauffez votre four th 6/7 le temps de préparer la tarte.",
+      "Etape 2 : Etaler la pâte feuilleté, avec son papier sufurisé dans un moule à tarte. ensuite piquez le fond de la tarte avec une fourchette, badigeonnez le fond avec la moutarde.",
+      "Etape 3 : Mettre ensuite le thon que vous aurez égoutter et émietté, après les tomates que vous coupez en rondelles fines,ou coupées en petits dés, la crème fraîche, sel, poivre.",
+      "Etape 4 : Mettre au four th 6/7 pendant 35 minutes."
+    ]
   },
 
   {
     "name": "Salade niçoise",
+    "description": "Cette recette est la vraie salade niçoise telle qu'on la mange dans le Sud de la France.",
     "season": ["summer"],
+    "image": "/images/Salade-niçoise.png",
     "duration": "1",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner"],
@@ -371,12 +603,20 @@
       "filet d'anchois",
       "olives",
       "radis"
+    ],
+    "personne":"6 personnes",
+    "ingredients": "10 tomates mûres mais fermes, 12 filets d'anchois, 4 oeufs durs, 300 g de thon, 250 g de févettes, 150 g d'olives niçoises, 4 poivrons, 1 botte de radis, 1 paquet d'oignons nouveaux ou Cébettes, 5 artichauts violets (petits), 6 c. à s. d'huile d'olive, 2 c. à s. de vinaigre, Sel ou sel fin",
+    "Etapes":["Etape 1 : Couper les tomates en quartiers et les saler légèrement. Couper les œufs en rondelles. Emietter le thon. Émincer en anneaux très fins les poivrons verts, les cébettes et les artichauts.",
+    "Etape 2 : Cuire les fèves à l'anglaise (les plonger dans de l'eau bouillante salée puis les plonger dans de l'eau glacée pour préserver leur couleur). Mélanger le tout dans un grand saladier.",
+    "Etape 3 : Égoutter les tomates et les incorporer à la préparation. Faire la vinaigrette avec l'huile d'olive, le vinaigre, le poivre et sel. Dresse la salade et la décorer avec les anchois et les olives."
     ]
   },
 
   {
     "name": "Salade chèvre, lardons et champignon",
+    "description": "La salade idéale pour l'été !",
     "season": ["summer", "spring"],
+    "image": "/images/salade-chevre-lardon-champ.png",
     "duration": "1",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner"],
@@ -388,29 +628,23 @@
       "lardon",
       "champignon",
       "fromage chevre"
+    ],
+    "personne": "5 personnes",
+    "ingredients": "Salade verte, Morceau de fromage de chèvre, Lardon, Croûton, Champignon",
+    "Etapes": ["Etape 1 : Dans une sauteuse, faire frire les lardons, les champignons et les croûtons de pain (ne pas ajouter pas de matières grasses, les lardons s'occupent de tout)",
+    "Etape 2 : Mettre la salade et les morceaux de chèvre dans un saladier.",
+    "Etape 3 : Ajouter le mélange lardons, champignons et croûtons à la salade.",
+    "Etape 4 : Ajouter la vinaigrette.   C'est prêt !"
     ]
   },
 
-  {
-    "name": "Salade chèvre, lardons et champignon",
-    "season": ["summer", "spring"],
-    "duration": "1",
-    "mood": ["energy", "healthy"],
-    "type": ["dejeuner", "diner"],
-    "difficulty": "easy",
-    "ingredient": [
-      "laitue",
-      "tomates",
-      "crouton",
-      "lardon",
-      "champignon",
-      "fromage chevre"
-    ]
-  },
+  
 
   {
     "name": "Salade aux deux pommes et au hareng fumé",
+    "description": "Une salade de pommes de terre qui sera parfaite pour un pique-nique ou un brunch nordique.",
     "season": ["summer", "spring", "winter"],
+    "image": "/images/hareng-fumé-salade.png",
     "duration": "1",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner"],
@@ -423,12 +657,23 @@
       "aneth",
       "moutarde",
       "jaune d'oeuf"
+    ],
+    "personne":"4 personnes",
+    "ingredients": "Pour la salade: 800 g de pommes de terre, 3 filets de filet de harengs fumés, 1 pomme granny smith, 0,5 citron, Pluche d'aneth. Pour la sauce gravlax: 7,5 cl d'huile végétale, 1 jaune d'oeuf, 2 c. à s. de moutarde mi-forte Amora, 1 c. à s. de vinaigre de xérès, 1 c. à c. de sucre, 4 branches d'aneth, Sel ou sel fin, Poivre",
+    "Etapes": ["Etape 1 : Faites cuire les pommes de terre à la vapeur ou à l'eau pendant 25 min environ, jusqu'à ce qu'elles soient tendres. Pelez-les pendant qu'elles sont encore tièdes puis coupez-les en cubes. Réservez dans un saladier.",
+      "Etape 2 : La sauce Gravlax: Mélangez dans un récipient à bords hauts (bocal ou grand verre par exemple) la Moutarde mi-forte Amora et le sucre. Ajoutez le jaune d'oeuf, le vinaigre et l'huile. Mixez à l'aide d'un mixeur plongeant jusqu'à obtention d'une sauce homogène. Effeuillez l'aneth, ciselez-la et ajoutez-la à la sauce, puis salez et poivrez.",
+      "Etape 3 : Dressage: Coupez la pomme en dés et arrosez-les de jus de citron. Coupez les filets de hareng fumé en morceaux et mettez le tout dans le saladier. Versez la sauce gravlax au-dessus, mélangez et parsemez de pluches d'aneth. Servez sans attendre"
     ]
+
+
+
   },
 
   {
     "name": "Aubergines a la parmigiana",
+    "description": "Un grand classique italien toujours apprécié ... si on aime les aubergines bien sûr ! ",
     "season": ["summer", "spring", "winter"],
+    "image": "/images/Aubergines-parmigiana.png",
     "duration": "1",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner"],
@@ -437,16 +682,25 @@
       "aubergines",
       "tomates",
       "parmesan",
-      "thym",
       "basilic",
-      "romarin",
+      "origan",
       "ail"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"3 aubergines, 400 g de tomates en dés, 2 boules de mozzarella, Parmesan râpé, 1 oignon, 2 gousses d'ail, Feuille de basilic, Origan séché, 1 sucre, Huile d'olive, Sel ou sel fin, Poivre noir",
+    "Etapes": ["Etape 1 : Rincez les aubergines, retirez le pédoncule et coupez des tranches de 1/2 cm dans la longueur. Déposez-les dans une passoire en les salant pour les faire dégorger au moins 1/2 heure.",
+      "Etape 2 : Pelez et émincez l'oignon et l'ail et faîtes les revenir 3 ou 4 minutes dans une casserole avec un filet d'huile d'olive. Ajoutez les tomates en dés, salez, poivrez, ajoutez l'origan séché, le sucre et quelques feuilles de basilic. Laissez mijoter 1/2 heure en mélangeant de temps en temps.",
+      "Etape 3 : Épongez les tranches d'aubergines et faites-les griller à la poêle avec un peu d'huile d'olive. Poivrez et réservez sur du papier absorbant. Rincez et coupez les boules de mozzarella en tranches.",
+      "Etape 4 : Recouvrez le fond d'un plat à gratin de sauce tomate et disposez des tranches d'aubergines les unes à côté des autres. Ajoutez le parmesan râpé et les tranches de mozzarella par dessus.",
+      "Etape 5 : Recouvrir à nouveau de sauce tomate et disposez des tranches d'aubergines mais dans l'autre sens. Recouvrez de parmesan et de mozzarella. Continuez comme ça jusqu'à épuisement des ingrédients mais en terminant par de la sauce tomate et du parmesan. Placez au four à 180°C pendant +/- 40 minutes."
     ]
   },
 
   {
     "name": "Gateau au yaourt",
+    "description": "Savoir se faire plaisir sans (trop) de complexes !",
     "season": ["summer", "spring", "winter"],
+    "image": "/images/Gateau-yaourt.png",
     "duration": "2",
     "mood": ["comfort"],
     "type": ["dessert","petit-dejeuner"],
@@ -459,12 +713,21 @@
       "sucre vanille",
       "huile",
       "levure chimique"
+    ],
+    "personne":"6 personnes",
+    "ingredients":"3 oeufs, 1,5 pot de farine, 1,5 pot de fécule de maïs Maïzena, 1 pot de sucre en poudre ou sucre semoule, 1 pot de yaourt de yaourts, 0,5 pot d'huile, 4 cl de lait, 1 sachet de sucre vanillé, 1 sachet de levure",
+    "Etapes":["Etape 1 : Préchauffer le four à 180°C.",
+    "Etape 2 : Dans un saladier, verser le yaourt et s'en servir comme verre doseur pour la suite de la recette.",
+    "Etape 3 : Ajouter ensuite le sucre, la farine, la maïzena, la levure, les oeufs, l'huile, le sucre vanillé et le lait. Veiller à bien mélanger entre chaque ingrédient.",
+    "Etape 4 : Une fois que la pâte est bien lisse, la verser dans un plat rond préalablement beurré et mettre le tout au four pendant 40 à 45 minutes."
     ]
   },
 
   {
     "name": "Quiche sans pate",
+    "description": "Une vraie quiche légère et goûteuse. Elle se prépare en un rien de temps et sans pâte, ce qui la rend plus légère.",
     "season": ["summer", "spring", "winter", "autumn"],
+    "image": "/images/Quiche-sans-pate.png",
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -477,12 +740,20 @@
       "farine",
       "poireaux",
       "noix de muscade"
+    ],
+    "personne":"8 personnes",
+    "ingredients": "50 cl de lait, 150 g de lardons ou 4 knackis ou dés de jambon, 100 g de gruyère rapé, 100 g de farine, 3 oeufs, 1 morceau de poireaux (facultatif), Noix de muscade, sel fin, Poivre",
+    "Etapes":["Etape 1 : Faire revenir les lardons dans une poêle jusqu'à ce qu'ils soient dorés. Dans un saladier, mélanger les oeufs avec le lait et la farine puis ajoutez un peu de noix de muscade rapée.", 
+      "Etape 2 : Ajouter les lardons ou les knackis (ou un mélange des deux) ainsi que le fromage râpé et mélanger. Beurrer un moule à tarte et y verser la préparation.",
+      "Etape 3 : Ajouter de fins morceaux de poireaux à la préparation, directement dans le moule. Enfourner pendant 35 min à 180°C. Laisser tiédir avant de déguster."
     ]
   },
 
   {
     "name": "Tartines de tapenade verte au chèvre et basilic",
+    "description": "Ces petites tartines d'olives réduites en purée mélangées avec du chèvre frais et du basilic raviront les palais des groumands",
     "season": ["summer", "spring", "winter", "autumn"],
+    "image":"/images/tapenade-chèvre-basilic.png",
     "duration": "1",
     "mood": ["comfort"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -495,12 +766,24 @@
       "olives verte denoyautees",
       "chevre frais",
       "huile d'olive"
+    ],
+    "personne":"6 personnes",
+    "ingredients":"basilic frais ou surgelé, 23 CS d'huile d'olive, sarriette sèchée, 1 cc de câpres, 1 gousse d'ail, chèvre frais fermier (de provence , ils sont tellement parfumés !) ou à défaut chèvre frais type petit billy, 120 g d'olives vertes dénoyautées",
+    "Etapes" :["Etape 1 : Eplucher et dégermer la gousse d'ail , la couper finement puis la passer au mini-hachoir électrique pour qu'elle soit le plus fine possible. Ajouter une dizaines de feuilles de basilic (ou plus c'est comme on aime!) ou du basilic surgelé et hacher de nouveau.( je l'ai mis après parce que j'ai utilisé du basilic surgelé donc déjà coupé)",
+    "Etape 2 : Ajouter les câpres et mixer à nouveau le plus finement possible. Egoutter les olives et les mettre dans le mini hachoir (en 2 fois c'est mieux) . Mixer jusqu'à obtenir une texture très fine mais pas bouillie! Remuer régulièrement pour que toutes les olives soient hachées de la même manière.",
+    "Etape 3 : Ajouter 1/2 petit billy (en 2 fois ) environ ou le fromage de chèvre fermier très frais (dans ce cas , mieux vaut y aller par petites quantités et goûter jusqu'à avoir le goût souhaité , avec le fromage fermier , le goût est plus prononcé qu'avec un fromage type petit billy plus 'fade' mais qui va néanmoins très bien).",
+    "Etape 4 : Retirer la purée d'olive au chèvre ainsi obtenue et la réserver dans un petit bol ou dans une petite barquette plastique avec couvercle. Ajouter la sarriette et l'huile d'olive . Mélanger pour que la tapenade soit bien homogène. Décorer avec des feuilles de basilic frais....c'est prêt ! Vous pouvez servir de suite , mais c'est mieux de réserver un moment au frais (mais ce n'est pas indispensable )! On peut sans soucis la préparer la veille .",
+    "Etape 5 : Servir sur des petites tartines de bon pain ou sur du pain grillé....avec un petit verre de rosé pamplemousse en été ....c'est excellent!"
+
     ]
+
   },
 
   {
     "name": "Frittata aux champignons",
+    "description": "La fameuse omelette italienne ronde ou 'frittata' se prépare nature ou garnie des légumes, selon les goûts et les saisons. Comme les champignons se marient à merveille avec les œufs, on vous propose notre frittata aux champignons : vous allez vous régaler.",
     "season": ["winter", "autumn"],
+    "image": "/images/Frittata-champignons.png",
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["dejeuner", "diner", "apero", "brunch"],
@@ -513,12 +796,23 @@
       "creme liquide entiere",
       "persil",
       "ciboulette"
-    ]
+    ],
+    "personne":"4 personnes",
+    "ingredients": "400 g de champignons de Paris, 3 c. à s. d'huile d'olive, 1 gousse d'ail, 4 pincées de sel ou sel fin, 4 pincées de poivre, 0,5 piment oiseau (facultatif). Pour la frittata: 8 oeufs moyens, 60 g de parmesan râpé, 3 cl de crème liquide entière ( 30% de MG ), 2 pincées de sel ou sel fin, 2 pincées de poivre noir, 1 c. à s. de persil plat haché, 0,5 bouquet de ciboulette",
+"Etapes": ["Etape 1 : Les champignons : Nettoyez les champignons sans les laver, ôtez la partie terreuse du tronçon. Coupez les champignons en tranches. Dans une sauteuse, faites revenir l'ail et le piment avec l'huile d'olive. Ajoutez les tranches de champignons, salez, poivrez et faites cuire pendant 3 minutes. Les champignons doivent rester encore un peu croquants. A l'aide d'un écumoire, égouttez les champignons, versez-les dans un bol et laissez refroidir.",
+"Etape 2 : La frittata : Préchauffez le four à 180 °C (statique). Chemisez avec du papier sulfurisé un moule à manqué rond de 24 cm de diamètre.",
+"Etape 3 : Cassez les œufs dans un saladier. Salez, poivrez, ajoutez la crème liquide, le parmesan râpé, la ciboulette ciselée et le persil haché. Fouettez le tout. Versez les tranches de champignons dans la préparation, mélangez et versez dans le moule.",
+"Etape 4 : Enfournez pendant 40 minutes, jusqu'à ce que la frittata soit cuite et sa surface légèrement dorée. Faites tiédir sur une grille avant de servir. La frittata se déguste tiède ou froide. "
+
+]
+
   },
 
   {
     "name": "Terrine de foie gras mi-cuit marbré aux figues",
+    "description": "Une recette très facile à refaire à la maison. On aime le démoulage facile pour une présentation très pro.",
     "season": ["winter", "autumn"],
+    "image": "/images/foie-gras-figues.png",
     "duration": "2",
     "mood": ["comfort"],
     "type": ["diner", "apero"],
@@ -530,22 +824,40 @@
       "cognac",
       "noix de muscade",
       "sel"
+    ],
+    "personne": "6 personnes",
+    "ingredients": "500 g de foie gras cru déveiné, 100 g de figues sèches moelleuses, 6 g de sel ou sel fin, 3 g de poivre blanc, 3 pincées de sucre, Noix de muscade, 5 cl de cognac",
+    "Etapes":["Etape 1 : Sortez le foie gras du réfrigérateur et de son emballage. Retirez la partie dure de vos figues séchées, coupez-les en 4 puis mettez-les dans un bol avec le cognac. Faites frémir 5 cl d’eau, versez-la dans le bol sur les figues, couvrez et réservez le temps de préparer le reste.",
+      "Etape 2 : Coupez le foie gras en tranches épaisses en biais (3 cm d’épaisseur) et mettez-les sur une plaque de cuisson recouverte d’une très grande feuille de papier cuisson. Dans un petit bol, mélangez le sel, le poivre, le sucre et un peu de noix de muscade. Ajoutez cet assaisonnement sur les tranches, des deux côtés.",
+      "Etape 3 : Enfermez les tranches de foie gras dans le papier cuisson en formant une papillote. Enfournez pour une quinzaine de minutes à 120°C (le foie doit être encore ferme).",
+      "Etape 4 : Tapissez une terrine ou un petit moule à cake de film étirable (contenance 50 cl). Tapissez le fond avec deux tranches de foie gras, ajoutez des morceaux de figues égouttées, recouvrez avec deux tranches, d’autres morceaux de figues et terminez par le reste du foie gras. Fermez avec le film étirable et formez quelques trous à l'aide d'un couteau. Posez un morceau de carton emballé dans du papier film sur la surface, appuyez légèrement et posez un poids assez léger (comme une boite de maquereaux par exemple). Laissez à température ambiante pendant 1 heure (cela permet au gras de bien se redistribuer dans les lobes) et réservez au frais pendant au moins 2 jours avant de déguster."
     ]
   },
 
   {
     "name": "Fondue de poireaux",
+    "description": "Découvrez la recette de Fondue de poireaux, un délice pour accompagner tous vos poissons et crustacés, pour des repas chics et équilibrés pour presque rien.",
     "season": ["winter", "autumn"],
+    "image": "/images/poireaux.png",
     "duration": "1",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
     "difficulty": "easy",
-    "ingredient": ["poireaux", "creme fraiche", "beurre"]
+    "ingredient": ["poireaux", "creme fraiche", "beurre"],
+    "personne":"4 personnes",
+    "ingredients": "1 kg de poireaux, 60 g de beurre, 3 c. à s. de crème fraîche, Sel ou sel fin, Poivre",
+    "Etapes": ["Etape 1 : Eplucher les poireaux en supprimant les 3/4 du vert, les fendre en deux et les laver abondamment à l'eau courante. Ensuite, les émincer finement.",
+      "Etape 2 : Dans une casserole, faire fondre le beurre, ajouter les poireaux émincés, saler et poivrer. Faire cuire sur feu doux et à couvert entre 10 à 15 minutes selon le degré de cuisson désiré.",
+      "Etape 3 : En fin de cuisson, ajouter la crème fraîche puis porter à ébullition 1 minute. Le beurre peut être remplacé par de l'huile d'arachide ou même d'olive. On peut parfumer cette fondue avec du curry, du safran, du paprika ou du gingembre.",
+      "Etape 4 : Selon la préparation, on peut émincer les poireaux plus ou moins finement et éventuellement prolonger leur cuisson de 10 minutes puis mixer la fondue pour obtenir une délicieuse purée de poireaux."    
+    ]
   },
 
   {
     "name": "Noix de Saint-Jacques à l'orange",
+    "description": "Les noix de Saint-Jacques se sont les coquillages qui se marient le plus avec plusieurs ingrédients et nombreuses associations et elles sont omniprésentes au moment des fêtes ou tout simplement pour épater la famille ou les amis.",
     "season": ["winter", "autumn"],
+    "image": "/images/Noix-de-Saint-Jacques.png",
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -557,12 +869,23 @@
       "pomme de terre",
       "ciboulette",
       "creme d'amande"
-    ]
+    ],
+    "personne":"4 personnes",
+    "ingredients": "12 noix de Saint-Jacques, 2 oranges, 6 c. à s. d'huile d'olive, 1 c. à c. de miel liquide, Sel ou sel fin, Poivre. L'accompagnement : 500 g de pommes de terre, 0,5 bouquet de ciboulette, 4 c. à s. d'huile d'olive, 3 c. à s. de crème d'amande, Sel ou sel fin, Poivre",
+"Etapes": ["Etape 1 : Epluchez les pommes de terre et coupez-les en dés. Faites cuire les dés de pommes de terre à l'eau pendant 15 minutes. Egouttez les pommes de terre puis placez-les dans un saladier.",
+  "Etape 2 : Ajoutez l'huile d'olive, la crème d'amandes, le sel et le poivre puis écrasez l'ensemble avec une fourchette. Ajoutez la ciboulette ciselée, mélangez et gardez l'écrasé de pomme de terre au chaud.", 
+  "Etape 3 : Récupérez le zeste d'une orange. Pressez les 2 oranges et récupérez le jus. Versez le jus et les zestes d'oranges dans une casserole. Ajoutez 3 cuillères à soupe d'huile d'olive, le miel, le sel et le poivre puis laissez mijoter pendant 8 minutes afin de réduire un peu la sauce.",
+  "Etape 4 : Dans une poêle, faites chauffer 3 cuillères à soupe d'huile d'olive. Ajoutez les noix de Saint-Jacques et faites-les dorer de chaque côté à feu moyen.",
+  "Etape 5 : Servez les noix de Saint-Jacques dans des assiettes avec la sauce à l'orange. Saupoudrez de ciboulette ciselée et accompagnez-les d'écrasé de pommes de terre. Dégustez."
+]
+
   },
 
   {
     "name": "Risotto",
+    "description": "Un délicieux risotto, à la fois joli simple à réaliser !",
     "season": ["winter", "autumn"],
+    "image": "/images/Risotto.png",
     "duration": "3",
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
@@ -577,12 +900,20 @@
       "verre de vin blanc",
       "bouillon de legumes",
       "beurre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"10 cl de vin blanc (½ verre), Du parmesan, De l'huile d'olives, 150 g de champignons environ, 1 barquette de 150 g de dés de jambon, Un peu plus d'1 litre de bouillon, préparé avec de l'eau + 2 cube de bouillon poule, 1 oignon, 1 petite boite de petits pois, 500g de riz pour risotto (arborio, par exemple)",
+    "Etapes":["Etape 1 : faire suer les champignons dans une petite casserole. préparer le bouillon dans une autre en mettant les 2 cubes dans 1 litre d'eau et le faire chauffer. sortir tous les ingrédients.",
+        "Etape 2 : Prendre une sauteuse faire, y verser l'huile d'olives, l'oignon émincé et le riz, mélanger le tout avec une cuiller en bois et faire revenir sans coloration : les grains de riz s'enroberont d'huile et prendront une teinte translucide. Déglacer avec le vin blanc et laisser évaporer en remuant toujours. A ce moment, commencer à verser le bouillon chaud : le verser petit à petit avec une louche, à chaque fois que la louchée précédente est absorbée, verser la suivante, et ne jamais cesser de tourner... Il est très difficile d'évaluer la quantité de liquide qu'il faut verser au total, ça dépend un peu de la marque du riz je pense (enfin, de sa qualité) le tout est de goûter de temps en temps pour vérifier l'avancée de la cuisson.",
+        "Etape 3 : Lorsque le riz est cuit, arrêter la cuisson et ajouter dans la foulée le parmesan, les dés de jambon, les petits pois égouttés et les champignons revenus."
     ]
   },
 
   {
     "name": "Patate douce rôtie au four",
+    "description":"La patate douce s'apprête merveilleusement bien à la cuisson au four et surtout pour être garnie. Ici et après l'avoir cuite au four, on fait une fente au milieu de la patate douce et on la garnie avec la crème de coco et des dés de fromage de chèvre.", 
     "season": ["winter", "autumn"],
+    "image": "/images/Patate-douce.png",
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -594,12 +925,23 @@
       "ail en poudre",
       "roquette",
       "ciboulette"
+    ],
+    "personne":"4 personnes",
+    "ingredients": "1 patate douce de 500 g, 10 g de crème de coco, 0,5 bûche de fromage de chèvre, 0,5 c. à s. d'ail en poudre, 1 c. à s. de ciboulette ciselée, Sel ou sel fin, Poivre, 1 sachet de roquette",
+    "Etapes":["Etape 1 : Lavez et séchez la patate douce. Enveloppez la patate douce avec du papier sulfurisé puis avec du papier aluminium. Mettez à cuire la patate douce pendant 50 minutes dans un four préchauffé à 180°C.",
+      "Etape 2 : Vérifiez la cuisson en plantant la lame d'un couteau dans la patate douce. Prolongez la cuisson si besoin. Retirez les papiers de la patate douce et déposez-la dans un plat à gratin. ",
+      "Etape 3 : A l'aide d'un couteau incisez le haut de la patate douce puis videz juste un peu le milieu de la patate afin d'avoir un joli creux sans qu'il soit trop profond. Salez et poivrez la patate douce puis saupoudrez l'intérieur d'ail en poudre.",
+      "Etape 4 : Mettez dans le creux de la patate douce des dés de fromage de chèvre puis couvrez avec la crème de coco. Saupoudrez de ciboulette ciselée. Mettez la patate douce à gratiner pendant 6 minutes dans le four en mode grill. Servez la patate douce avec une salade verte ou bien avec du riz nature.",
+
+
     ]
   },
 
   {
     "name": "Potimarrons farcis aux champignons, épinards, féta et graines de courge",
+    "description": "Une recette bien de saison, assez légère et très facile à faire. Les potimarrons sont vidés et précuits au four.",
     "season": ["winter", "autumn"],
+    "image": "/images/Potimarrons-farcis.png",
     "duration": "2",
     "mood": ["healthy"],
     "type": ["diner", "dejeuner"],
@@ -612,14 +954,23 @@
       "creme vegetale",
       "graines de courge",
       "oignon"
+    ],
+    "personne":"4 personnes",
+    "ingredients": "2 potimarrons (800 g chaque), 1 oignon, 175 g de feta, 350 g de champignons de Paris, 100 g de pousses d'épinards, 30 g de graines de courges, 6 cl de crème végétale, Huile d'olive, Sel ou sel fin, Poivre",
+    "Etapes":["Etape 1 : Préchauffez le four à 190°C. Lavez les potimarrons, découpez le chapeau puis retirez les graines en vous aidant d’une cuillère à glace ou d’une grande cuillère. Retirez un peu de chair sur le pourtour et réservez. Salez l’intérieur des potimarrons, ajoutez un peu d’huile d’olive et posez dans un plat recouvert de papier cuisson. Enfournez pendant 25 minutes pour faire cuire la chair. Testez la cuisson à l’aide de la pointe d’un couteau, elle doit être tendre.",
+      "Etape 2 : Pelez et ciselez l’oignon et concassez la chair de potimarron réservée. Émincez les champignons et ciselez grossièrement les pousses d’épinard. Faites chauffer 1 poêle avec 1 cuillère à soupe d’huile d’olive, ajoutez le mélange oignon et potimarron et faites revenir pendant 5 minutes. Ajoutez les champignons et faites-les revenir sur feu vif pendant quelques minutes.",
+      "Etape 3 : Versez dans un bol, ajoutez les pousses d’épinard, les graines de courge et la crème. Mélangez, salez, poivrez, ajoutez les  ¾ de la féta et mélangez.",
+      "Etape 4 : Remplissez chaque potimarron avec ce mélange et ajoutez le reste de de la féta sur le dessus. Enfournez à 200°C pendant une dizaine de minutes, juste pour dorer l'ensemble."
+
     ]
   },
 
   {
     "name": "Boeuf Wellington",
+    "description": "Filet de Boeuf en croute relevé au foie gras et servi avec une sauce au Madère. Cette recette remporte la 9ème place du concours Cuisinez le boeuf pour la Saint-Patrick.",
     "season": ["winter", "autumn"],
+    "image":"/images/Wellington.png",
     "duration": "3",
-    "time": "4mins",
     "mood": ["comfort"],
     "type": ["diner", "dejeuner"],
     "difficulty": "medium",
@@ -632,6 +983,16 @@
       "oeuf",
       "beurre",
       "foie gras cru"
+    ],
+    "personne":"6 personnes",
+    "ingredients":"1,25 kg de filets de boeuf, 700 g de pâtes feuilletées, 200 g de champignons, 80 g de foie gras, 80 g de marrons, 2 échalotes finement hachées, 1 blanc d’oeuf, 1 jaune d'oeuf, Huile de colza, Sel ou sel fin, Poivre. Pour la sauce au madère: 125 ml de fond de veau, 60 ml de xérès (vin blanc) ou 60 ml de madère, 15 g d'échalotes hachées, 15 g de beurre, Sel ou sel fin, Poivre",
+    "Etapes":["Etape 1 : Faites colorer brièvement la pièce de filet de boeuf avec un mélange de beurre et d'huile dans une cocotte.",
+      "Etape 2 : Préparez la duxelle : épluchez et hachez les échalotes puis faites les sauter dans un mélange beurre et huile. Lavez et hachez les champignons et ajoutez-les avec les marrons émiettés dans les échalotes. Saler et poivrer.",
+      "Etape 3 : Etalez la pâte feuilletée en formant deux grands rectangles, un grand rectangle pour le couvercle et un plus petit pour le fond.",
+      "Etape 4 : Posez le filet de boeuf sur le rectangle le plus petit (on peut mettre un peu de duxelles de champignons sous le filet, mais je ne le fais pas). Posez des tranches de foie gras dessus, puis la duxelles de champignons et marrons. Recouvrez avec le deuxième rectangle.",
+      "Etape 5 : Soudez les bords. Pour cela faites revenir le bord de la pâte du dessous au dessus de la pâte qui forme le couvercle. Cela fait un bord assez gros, mais que l'on peut façonner de façon à ce que ce soit joli. Si nécessaire. collez la soudure et les décorations de pâte avec du blanc d'oeuf. Ménager trois trous sur le dessus où glisser un bristol roulé pour former une cheminée.",
+      "Etape 6 : Préchauffez le four à 250°C. Badigeonnez le tout avec le jaune d'oeuf mêlé à un peu d'eau. Posez sur une plaque recouverte de papier cuisson (papier sulfurisé). Enfournez pendant environ 20 à 25 minutes pour une cuisson saignante.",
+      "Etape 7 : Faites la sauce. Faites sauter l'échalote hachée dans un mélange beurre et huile. Déglacez au xérès puis ajoutez le fond de veau. Laissez la sauce réduire jusqu'à ce qu'elle s'épaississe un peu."
     ]
   }
 ]
