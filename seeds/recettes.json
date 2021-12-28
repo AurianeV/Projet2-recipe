@@ -1,6 +1,6 @@
 [
   {
-    "name": "Soupe au curry",
+    "name": "Soupe au curry & carottes",
     "description":"Et si vous appreniez à préparer une soupe à la carotte qui plaira à coup sûr, ça vous dit ? Un velouté de carottes au curry original et savoureux qui risque de surprendre votre famille. C’est certain, vous allez les épater, il n’y a rien de meilleur qu’une succulente soupe maison.",
     "season": ["winter", "autumn"],
     "image":"/images/soupe1.png",
@@ -19,10 +19,10 @@
       "bouillon volaille",
       "crème",
       "sel"
-    ],
+    ], 
       "personne": "4 personnes",
       "ingredients": "600 g de carottes, 6 portions de Vache qui rit ® ou Carré Frais ®, 2 oignons, 1 c.à café de curry, 2 cubes de bouillon de volaille, 2 c.à soupe d'huile d'olive, 1 l d'eau",
-      "Étapes": [ "Étape 1 : Commencez par éplucher vos légumes et coupez-les en morceaux.",
+      "Etapes": [ "Étape 1 : Commencez par éplucher vos légumes et coupez-les en morceaux.",
       "Étape 2 : Dans une poêle, faites chauffer l'huile d'olive et ajoutez les légumes. Mélangez et saupoudrez de curry. Goûtez votre soupe afin de savoir s’il est nécessaire de rajouter du curry ou non. Ajoutez l'eau et les cubes de bouillon puis laissez cuire 15 min environ.",
       "Étape 3 : Votre préparation est maintenant presque terminée, il ne vous reste plus qu’à utiliser votre mixeur plongeant pour obtenir la consistance désirée et à ajouter les portions de fromages et à les laisser fondre.",
       "Étape 4 : Vous sentez la bonne odeur de carottes et de curry ? Votre soupe de carottes au curry est maintenant prête. Bonne dégustation !"
@@ -53,8 +53,8 @@
   {
     "name": "Tomates cerises farcies au fromage",
     "description": "Voici une idée d'apéritif simple et rapide à faire.",
+    "image":"/images/tomates.webp",
     "season": ["summer", "spring"],
-    "image": "images/Tomate-farcie-fromage.png",
     "duration": "1",
     "mood": ["comfort", "energy"],
     "type": ["diner", "brunch", "dejeuner", "apero"],
@@ -92,8 +92,8 @@
   {
     "name": "Pâtes au pesto de basilic",
     "description": "Rien de tel qu'un bon pesto maison ! Une recette simple à réaliser pour un maximum de saveurs...",
+    "image":"/images/pates-au-pesto-de-basilic.jpeg",
     "season": ["winter", "autumn", "summer", "spring"],
-    "image": "/images/pates-pesto.png",
     "duration": "1",
     "mood": ["comfort", "energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner"],
@@ -145,8 +145,8 @@
   {
     "name": "Gaspacho",
     "description": "Une soupe froide de légumes d'été, qui se déguste fraîche avec des croûtons ailés.",
+    "image":"/images/gaspacho.jpeg",
     "season": ["summer", "spring"],
-    "image":"/images/Gaspacho.png",
     "duration": "2",
     "mood": ["energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner", "apero"],
@@ -178,8 +178,8 @@
   {
     "name": "Taboule maison",
     "description": "Ma recette du taboulé. Un plat que l'on prépare à l'avance. Idéal pour un pique-nique ou un barbecue entre amis !",
+    "image":"/images/taboule.webp",
     "season": ["summer", "spring"],
-    "image": "/images/Taboule-maison.png",
     "duration": "1",
     "mood": ["healthy"],
     "type": ["diner", "brunch", "dejeuner"],
@@ -499,22 +499,21 @@
     "mood": ["comfort"],
     "type": ["brunch", "apero"],
     "difficulty": "easy",
-    "personne":"4 personnes",
     "ingredient": [
       "blinis",
       "creme fraiche epaisse",
       "citron",
       "saumon fume",
       "ciboulette",
-      "moutarde"],
-    
+      "moutarde"
+    ],
+    "personne" :"4 personnes",
     "ingredients": "4 blinis, 1 tranche de saumon fumé, 1 c.à c. de moutarde, 5 c.à s. de crème fraîche épaisse, ciboulette, citron",
       
-    "Etapes":["Etape 1 : Griller les mini blinis et les couper en deux.",
+      "Etapes": ["Etape 1 : Griller les mini blinis et les couper en deux.",
       "Étape 2 : Couper le saumon en petits morceaux.",
       "Étape 3 : Mélanger la crème fraiche, le citron et la moutarde.",
-      "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."
-    ]
+      "Étape 4 : Faire le montage, crème fraiche, blinis, crème fraiche, saumon et décorer avec la ciboulette ciselée."]
     
   },
 
@@ -931,9 +930,7 @@
     "Etapes":["Etape 1 : Lavez et séchez la patate douce. Enveloppez la patate douce avec du papier sulfurisé puis avec du papier aluminium. Mettez à cuire la patate douce pendant 50 minutes dans un four préchauffé à 180°C.",
       "Etape 2 : Vérifiez la cuisson en plantant la lame d'un couteau dans la patate douce. Prolongez la cuisson si besoin. Retirez les papiers de la patate douce et déposez-la dans un plat à gratin. ",
       "Etape 3 : A l'aide d'un couteau incisez le haut de la patate douce puis videz juste un peu le milieu de la patate afin d'avoir un joli creux sans qu'il soit trop profond. Salez et poivrez la patate douce puis saupoudrez l'intérieur d'ail en poudre.",
-      "Etape 4 : Mettez dans le creux de la patate douce des dés de fromage de chèvre puis couvrez avec la crème de coco. Saupoudrez de ciboulette ciselée. Mettez la patate douce à gratiner pendant 6 minutes dans le four en mode grill. Servez la patate douce avec une salade verte ou bien avec du riz nature.",
-
-
+      "Etape 4 : Mettez dans le creux de la patate douce des dés de fromage de chèvre puis couvrez avec la crème de coco. Saupoudrez de ciboulette ciselée. Mettez la patate douce à gratiner pendant 6 minutes dans le four en mode grill. Servez la patate douce avec une salade verte ou bien avec du riz nature."
     ]
   },
 

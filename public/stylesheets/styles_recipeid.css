@@ -13,7 +13,7 @@ h3 {
 }
 
 .photo {
-    width:350px;
+    width:200px;
     border-radius: 60px;
     filter: drop-shadow(10px 10px 6px #a3a2a2);
 }
@@ -46,8 +46,8 @@ hr {
 }
 
 .fav {
-    width:30px;
-    height:38px;
+    width:40px;
+    height: 38px;;
 }
 
 .detailrecette2 {

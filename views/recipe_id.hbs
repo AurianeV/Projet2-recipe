@@ -1,22 +1,24 @@
 <link rel="stylesheet" href="/stylesheets/styles_recipeid.css"/>
 
-<h1>Soupe de carottes au curry</h1>
+{{#each myRecipes}}
+
+<h1> {{name}} </h1>
 
 
 <div class="detailrecette1">
 
-    <img class="photo" src="/images/soupe1.png"/>
+    <img class="photo" src="{{this.image}}" alt="photo"/>
 
     <div class="time_level">
 
-        <p> Temps de Preparation: <time>20</time></p>
-        <p> Difficulty: Medium</p>
+        <p> Temps de Preparation: <time>{{time}}</time></p>
+        <p> Difficulty: {{difficulty}}</p>
 
-       <img class="fav" src="/images/fav.png"/>
+       <img class="fav" src="/images/favoris.png"/>
 
     </div>
 
-    <p class="resume">Vous avez envie d’une bonne soupe mais vous en avez assez d’acheter des soupes industrielles ou de faire toujours les mêmes recettes de soupes maison ? Et si vous appreniez à préparer une soupe à la carotte qui plaira à coup sûr, ça vous dit ? Un velouté de carottes au curry original et savoureux qui risque de surprendre votre famille. C’est certain, vous allez les épater, il n’y a rien de meilleur qu’une succulente soupe maison.</p>
+    <p class="resume">{{description}}</p>
     
 </div>
 
@@ -24,14 +26,11 @@
 
 <div class="detailrecette2">
  
- <h2>INGRÉDIENTS : 4 PERS </h2>
+ <h2>INGRÉDIENTS : {{personne}} </h2>
  
  <br>
     <ul>
-        {{#each ingredient}}
-        <li>{{this}}</li>
-        {{/each}}
-        <li>600 g de carottes</li>
+        <li>{{ingredients}}</li>
         <li>6 portions de Vache qui rit ou Carré Frais</li>
         <li>2 oignons</li>
         <li>1 c.à café de curry</li>
@@ -43,6 +42,7 @@
 </div>
 
 <div class="etapes">
+
 
 <h3>Étape 1</h3>
 <p>Commencez par éplucher vos légumes et coupez-les en morceaux.</p>
@@ -57,3 +57,5 @@
 <p>Vous sentez la bonne odeur de carottes et de curry ? Votre soupe de carottes au curry est maintenant prête. Bonne dégustation !</p>
 
 </div>
+
+{{/each}}

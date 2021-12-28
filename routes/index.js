@@ -18,16 +18,6 @@ router.get("/search-recipe", (request, response, next) => {
 router.post("/search-recipe", (request, response, next) => {
   console.log("coucou", request.body) 
 
-  /*
-  Les recettes, courtes + faciles + (reconfortante OU saines)
-  {
-    duration: "1",
-    difficulty: "easy",
-    mood: {$in: ['comfort', 'healthy']},
-    season: {$in: ['winter', 'autumn']}
-  }
-  */
-
   const filters = {}
 
   if (request.body.season) {
@@ -92,7 +82,14 @@ router.get("/recipes", (request, response, next) => {
 
 //6ème route - recette choisie
 router.get("/recipe_id", (request, response, next) => {
-  response.render("recipe_id");
+  
+
+  Recipe.find({}) 
+  .then(myRecipes => {
+     response.render("recipe_id", {myRecipes})
+  })
 });
+
+
 
 module.exports = router;
