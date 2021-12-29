@@ -29,7 +29,8 @@
  <h2>INGRÉDIENTS : {{personne}} </h2>
  
  <br>
-    <ul>
+
+        
         <li>{{ingredients}}</li>
         <li>6 portions de Vache qui rit ou Carré Frais</li>
         <li>2 oignons</li>
@@ -37,24 +38,15 @@
         <li>2 cubes de bouillon de volaille</li>
         <li>2 c.à soupe d'huile d'olive</li>
         <li> 1 l d'eau</li>
-    </ul>
+    
     
 </div>
 
 <div class="etapes">
 
-
-<h3>Étape 1</h3>
-<p>Commencez par éplucher vos légumes et coupez-les en morceaux.</p>
-
-<h3>Étape 2</h3>
-<p>Dans une poêle, faites chauffer l'huile d'olive et ajoutez les légumes. Mélangez et saupoudrez de curry. Goûtez votre soupe afin de savoir s’il est nécessaire de rajouter du curry ou non. Ajoutez l'eau et les cubes de bouillon puis laissez cuire 15 min environ.</p>
-
-<h3>Étape 3</h3>
-<p>Votre préparation est maintenant presque terminée, il ne vous reste plus qu’à utiliser votre mixeur plongeant pour obtenir la consistance désirée et à ajouter les portions de fromages et à les laisser fondre.</p>
-
-<h3>Étape 4</h3>
-<p>Vous sentez la bonne odeur de carottes et de curry ? Votre soupe de carottes au curry est maintenant prête. Bonne dégustation !</p>
+{{#each Etapes}}
+<ul>{{this}}</ul>
+{{/each}}
 
 </div>
 

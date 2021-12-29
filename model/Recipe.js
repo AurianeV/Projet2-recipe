@@ -45,7 +45,7 @@ const recipe = new Schema(
     ingredient: [String],
     personne: String,
     ingredients: String,
-    Étapes: [String],
+    Etapes: [String],
   },
 
   {
