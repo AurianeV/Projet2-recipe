@@ -6,7 +6,7 @@ const Recipe = require("../model/Recipe");
 
 //premiere route- Home page
 router.get("/home", (request, response, next) => {
-  response.render("index");
+  response.render("index", { apiKey: 'AIzaSyCTxsFM2Bbm4KEtuFAmdu11WF3s3zUliwU' });
 });
 
 // route - sear-recipe
