@@ -120,7 +120,7 @@
     "name": "Cake aux olives et jambon",
     "description": "Facile et délicieux ! La recette de ma coiffeuse !",
     "season": ["winter", "autumn", "summer", "spring"],
-    "image":"/images/cake-aux-olives-et-jambon.png",
+    "image":"/images/Cake-aux-olives-et-jambon.png",
     "duration": "2",
     "mood": ["comfort", "energy", "healthy"],
     "type": ["diner", "brunch", "dejeuner", "petit-dejeuner"],
@@ -145,7 +145,7 @@
   {
     "name": "Gaspacho",
     "description": "Une soupe froide de légumes d'été, qui se déguste fraîche avec des croûtons ailés.",
-    "image":"/images/gaspacho.jpeg",
+    "image":"/images/gapascho.jpeg",
     "season": ["summer", "spring"],
     "duration": "2",
     "mood": ["energy", "healthy"],
