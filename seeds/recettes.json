@@ -665,8 +665,6 @@
       "Etape 3 : Dressage: Coupez la pomme en dés et arrosez-les de jus de citron. Coupez les filets de hareng fumé en morceaux et mettez le tout dans le saladier. Versez la sauce gravlax au-dessus, mélangez et parsemez de pluches d'aneth. Servez sans attendre"
     ]
 
-
-
   },
 
   {
@@ -992,6 +990,402 @@
       "Etape 6 : Préchauffez le four à 250°C. Badigeonnez le tout avec le jaune d'oeuf mêlé à un peu d'eau. Posez sur une plaque recouverte de papier cuisson (papier sulfurisé). Enfournez pendant environ 20 à 25 minutes pour une cuisson saignante.",
       "Etape 7 : Faites la sauce. Faites sauter l'échalote hachée dans un mélange beurre et huile. Déglacez au xérès puis ajoutez le fond de veau. Laissez la sauce réduire jusqu'à ce qu'elle s'épaississe un peu."
     ]
+  }, 
+
+  {
+    "name": "Salade de melon vert et Jambon cru Aoste" ,
+    "description":"Cette salade est légère et gourmande à la fois, car elle allie le fondant du jambon Aoste les Fines & Fondantes, la fraîcheur du concombre, le melon vert pour le côté juteux et sucré et pour finir une touche craquante avec les noix de cajou. Elle est parfaite pour nos menus d'été... à consommer sans modération ! ",
+    "season":["spring", "summer"],
+    "image": "/images/melonJambon.png",
+    "duration":"2",
+    "time":"20min",
+    "mood":["healthy"],
+    "type":"dejeuner",
+    "difficulty":"easy",
+    "ingredient": [
+      "Jambon Aoste", 
+      "tomate", 
+      "oignon cébette", 
+      "melon vert", 
+      "concombre", 
+      "noix de cajou torréfiées", 
+      "huile d'olive", 
+      "creme de vinaigre balsamique", 
+      "basilic", 
+      "sel et poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"Jambon Aoste 4 tranches, 2 Tomates Green Zebra, 1 Oignon cébette, 1/2 Melon vert, 1/2 Concombre, 20 g Noix de cajou torréfiées, 5 cl Huile d'olive, 2 cl creme de Vinaigre balsamique, Basilic quelques feuille, Sel, Poivre",
+    "Etapes":["Etape 1 : Réaliser des billes de melon à l'aide d'une cuillère à pomme parisienne. Couper des tagliatelles de concombre avec un couteau économe de type rasoir. Laver et détailler les tomates en quartiers puis concasser les noix de cajou.",
+    "Etape 2 : Dans une assiette, dresser le melon, le concombre et la tomate harmonieusement en terminant avec les tranches de jambon cru Fines et Fondantes Aoste.",
+    "Etape 3 : Parsemer de noix de cajou concassées et de cébette ciselées (tige uniquement). Avant de servir, arroser d'huile d'olive et d'un peu de crème de vinaigre balsamique puis déposer quelques feuilles de basilic frais."
+  ]
+
+  } ,
+  {
+    "name": "Salade de foies de volaille aux pommes et au miel",
+    "description":"Une salade gourmande mêlant tradition française et pointe d'exotisme. Parfaite pour les amateurs de sucré-salé.",
+    "season":["summer","spring"],
+    "image": "/images/foieSalade.png",
+    "duration":"2",
+    "time":"30min",
+    "mood":["energy", "healthy"],
+    "type":["dejeuner", "diner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "foie de volaille", 
+      "oignon rouge", 
+      "feta", 
+      "tomate cerise", 
+      "miel de baies roses", 
+      "cardamone", 
+      "baies roses", 
+      "persil", 
+      "huile d'olive", 
+      "sel et poivre", 
+      "mache ou salade", 
+      "noisette"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"300 g de foies de volaille confits, 1 petit oignon rouge, 1 pomme, 50 g de feta, Une douzaine de tomates cerise, 1 cuillerée à café de miel de baies roses, 1 gousse de cardamome, ¼ cuillerée à café de baies roses, 1 cuillerée à soupe de persil haché, 4 cuillerées à soupe de vinaigre au miel et à la cardamome, huile d'olive + une noix de beurre, Sel du moulin, poivre noir du moulin, Salade verte ou mâche, Quelques noisettes (facultatif)",
+    "Etapes":["Etape 1 : ",
+    "Etape 2 : Épluchez la pomme et l'oignon. Émincez l'oignon. Taillez la pomme en lamelles. Pilez les graines de la gousse de cardamome.",
+    "Etape 3 : Parsemez les foies de volaille de sel et de persil haché, mélangez et déglacez avec 2 cuillerées à soupe de vinaigre. Raclez bien la poêle avec une spatule en bois pour en détacher tous les sucs de cuisson.",
+    "Etape 4 : Dans les assiettes de service, disposez un lit de salade (ou de mâche) des lamelles de pommes rôties, une portion de foies de volaille au centre, les dés de feta, les noisettes grossièrement concassées, ainsi que les tomates cerises coupées en deux tout autour.",
+    "Etape 5 : Émulsionnez le reste de vinaigre avec 4 cuillerées à soupe d'huile d'olive, du poivre du moulin et les sucs de cuisson des foies de volaille.",
+    "Etape 6 : Répartissez cet assaisonnement sur la salade. Dégustez avec des tranches de pain grillé."
+  ]
+
+  } ,
+  {
+    "name": "Croque-monsieur ",
+    "description":"Découvrez la recette de croque-monsieur parfaite pour les gourmands. Moelleux et croustillant à la fois, la petite pointe de muscade fait toute la différence.",
+    "season":["spring", "autumn", "winter", "summer"],
+    "image": "/images/croque.png",
+    "duration":"1",
+    "time":"20min",
+    "mood":"comfort",
+    "type":["dejeuner", "diner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "pain de mie", 
+      "gruyere", 
+      "Crème fraîche épaisse", 
+      "jambon", 
+      "noix de muscade"
+    ],
+    "personne":"2 personnes",
+    "ingredients":"4 tranche de pain de mie, 50 g de Gruyere, 20 cl Crème fraîche épaisse, 2 tranche jambon blanc, noix de muscade râpée",
+    "Etapes":["Etape 1 : Préchauffer le four en position grill ou à la température maximale si vous n'avez pas de grill.",
+    "Etape 2 : Superposer les tranches de jambon. Y déposer une tranche de pain mie et découper le jambon tout autour du pain. Cela permet une meilleure tenue et rend le croque plus présentable.",
+    "Etape 3 : Disposer toutes les tranches de pain de mie sur le plan de travail. Les tartiner de crème fraîche - plus ou moins selon votre goût. Saupoudrer d'un peu de muscade râpée puis ajouter le gruyère râpé.",
+    "Etape 4 : Sur la moitié des tranches de pain de mie ainsi préparées, disposer le jambon en 1 ou 2 épaisseurs selon votre gourmandise. Ajouter un peu de crème fraîche et de gruyère râpé.",
+    "Etape 5 : Poser les tranches de pain de mie sans jambon sur les tranches avec jambon. Donner une légère pression sur le dessus pour bien les souder et ainsi leur éviter de glisser à la cuisson.",
+    "Etape 6 : Enfourner en position haute environ 5 minutes si vous avez un grill, 10 minutes environ dans le cas contraire."
+  ]
+
+  } ,
+  {
+    "name": "Bruschetta à la ricotta-basilic et compotée de tomates",
+    "description":"Découvrez cette Bruschetta à la ricotta-basilic et compotée de tomates. J'ai mélangé la Ricotta avec du basilic frais ciselé, et garni le tout d'une compotée de duo de tomates cerises (jaunes et rouges) cuite au four avec de l'huile au thym et romarin. Le tout sur une tartine de pain Ciabatta toastée. Yummy ! ",
+    "season":"summer",
+    "image": "/images/ricotta-basilic.png",
+    "duration":"3",
+    "time":"80min",
+    "mood":"healthy",
+    "type":"apero",
+    "difficulty":"easy",
+    "ingredient": [
+      "Ciabatta", 
+      "ricottoa", 
+      "basilic", 
+      "tomate cerise jaune", 
+      "tomate cerise rouge", 
+      "huile de thym et romarin", 
+      "sel et poivre", 
+      "piment d'epelette"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"4 tranches de pain Ciabatta, 150g de Ricotta, 1 bouquet de basilic, 16 tomates cerises jaune, 16 tomates cerises rouge, 1 cuillère à soupe d'Huile de Thym et Romarin (La Tourangelle), Sel et poivre du moulin, 1 pincée de Piment d'Espelette",
+    "Etapes":["Etape 1 : Préchauffez le four à 180°C. Lavez et coupez les tomates cerises en morceaux. Mettez dans un petit plat allant au four, ajoutez l'Huile de Thym & Romarin, salez et poivrez. Enfournez pour 35 min de cuisson.",
+    "Etape 2 : Ajoutez aussi dans le four les tranches de Ciabatta à toaster légèrement (il faut qu'elles soient croustillantes à l'extérieur et moelleuse à l'intérieur), environ 10 min. A la fin de la cuisson, laissez compoter les tomates le four entre ouvert.",
+    "Etape 3 : Mélangez la Ricotta avec le sel et le poivre et le Piment d'Espelette, ajoutez quelques feuilles de basilic ciselées.",
+    "Etape 4 : Pour le dressage, rien de compliquer, tartinez les tranches de Ricotta-Basilic, et ajoutez un peu de compotée de tomates, décorez de feuilles de basilic. Réservez au frais avant de servir."
+  ]
+
+  },
+  {
+    "name": "Bruschetta patates douces et roquefort",
+    "description":"Partager ces bruschettas savoureuses de pain de seigle, patates douces et roquefort pour l'apéritif. Un délice !",
+    "season":["autumn"],
+    "image": "/images/Patate-doucetoast.png",
+    "duration":"2",
+    "time":"30min",
+    "mood":"comfort",
+    "type":"apero",
+    "difficulty":"easy",
+    "ingredient": [
+      "pain de seigle", 
+      "patate douce", 
+      "roquefort"
+    ],
+    "personne":"8 personnes",
+    "ingredients":"5 tranches Pain de seigle, 450 g (1 grosse) Patate douce, 250 g Roquefort",
+    "Etapes":["Etape 1 : Éplucher la patate douce et la couper en petits morceaux. Plonger les morceaux dans une eau bouillante pendant 15 min.",
+    "Etape 2 : Faites dorer vos tranches de pain de seigle 3 min dans un four chaud à 180°. Couper le roquefort en tout petits dès.",
+    "Etape 3 : Une fois la patate douce cuite, la sortir de l'eau et l'écraser à l'aide d'une fourchette. Un filet d'huile, sel et poivre sont la bienvenue !",
+    "Etape 4 : Étaler la purée sur les tranches, déposer les dés de roquefort et enfourner à nouveaux pour 3 min à 180° et 2 min en mode grill. Couper en 8/10. Servez tiède !",
+    "Etape 5 : On peut également ajouter des pousses de roquettes fraîche à la sortie du four !"
+  ]
+
+  } ,
+  {
+    "name": "Bruschetta thon et anchois",
+    "description":"En entrée ou à l'apéro, une recette de saison pour se réconcilier avec les anchois. ",
+    "season":["autumn", "spring", "summer", "winter"],
+    "image": "/images/thonSardine.png",
+    "duration":"1",
+    "time":"15min",
+    "mood":"healthy",
+    "type":"apero",
+    "difficulty":"easy",
+    "ingredient": [
+      "pain", 
+      "ail", 
+      "tomate", 
+      "oignon rouge", 
+      "filet d'anchois", 
+      "thon", 
+      "huile d'olive"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"8 tranches de pain moyennes, 1 gousse d'ail, 2 à 3 tomates, 1 petit oignon rouge, 8 olives noires, 8 filets d'anchois non salés marinés à l'ail, 1 petite boîte de thon, huile d'olive",
+    "Etapes":["Etape 1 : Préchauffer le four à 200°C en position grill. Laver les tomates et les couper en tranches. Éplucher l'oignon, le couper en deux puis le trancher finement. Éplucher 1 gousse d'ail, la couper en deux. Dénoyauter les olives et les couper grossièrement. Mettre le thon à égoutter. Émietter un peu. Déposer les tranches de pain sur la plaque de cuisson pour les faire griller 2 minutes sous le grill du four. Les retourner puis mettre à dorer 2 minutes supplémentaires sur l'autre face.",
+    "Etape 2 : A la sortie du four, les frotter avec les gousses d'ail sur chaque face. Déposer sur chaque tartine deux tranches de tomates afin d'en recouvrir la surface. Parsemer quelques morceaux d'oignon rouge. Ajouter un filet d'anchois le long de chaque tartine. Autour, répandre des grosses miettes de thon. Décorer avec les morceaux d'olives noires. Ajouter un petit filet d'huile d'olive. Servir ces bruschette avec une excellente salade verte à laquelle vous pouvez ajouter de belles tomates et le reste d'oignon rouge."
+  ]
+
+  } ,
+  {
+    "name": "Purée de pommes de terre à l'ancienne",
+    "description":"Une purée maison, c'est tellement simple à faire, et tellement bon... Cette recette est celle de la purée classique, à l'ancienne, sans crème fraîche épaisse, ni crème liquide, rien que de bonnes pommes de terre, un peu de lait, de beurre salé, le tout bien assaisonné et le tour est joué. Vous obtiendrez une purée très onctueuse, douce, crémeuse et savoureuse : la purée parfaite à déguster le dimanche en famille ! A partir de maintenant, la purée mousseline est in-ter-dite !",
+    "season":["winter", "autumn"],
+    "image": "/images/puree.png",
+    "duration":"2",
+    "time":"35min",
+    "mood":"comfort",
+    "type":["dejeuner", "diner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "pomme de terre", 
+      "lait entier", 
+      "beurre", 
+      "noix de muscade", 
+      "sel et poivre"
+    ],
+    "personne":"3 personnes",
+    "ingredients":" 700 g Pomme de terre, 100 ml lait entier, 70 g Beurre demi sel, 1 pincée Noix de muscade, Poivre du moulin, Fleur de sel",
+    "Etapes":["Etape 1 : Choisir des pommes de terre de taille à peu près égale. Les faire cuire dans une grande casserole remplie d'eau bouillante.",
+    "Etape 2 : Une fois cuites, les égoutter et les éplucher (attention, c'est chaud !) Les réduire en purée à l'aide d'un moulin à légumes (choisir la grille la plus fine).",
+    "Etape 3 : Pendant ce temps, faire chauffer le lait dans une petite casserole. Une fois bien chaud, l'ajouter à la purée et mélanger le tout avec un fouet à pâtisserie.",
+    "Etape 4 : Incorporer le beurre en dés, tout en fouettant. Terminer en assaisonnement avec la muscade, quelques tours de poivre du moulin et la fleur de sel. Servir immédiatement."
+  ]
+
+  } ,
+  {
+    "name":"Gratin de navets au fromage" ,
+    "description":"Le gratin de navets au fromage est une recette originale et simple à réaliser qui réconciliera ceux qui sont fâchés avec les légumes... Il sera idéalement accompagnée d'une salade composée ou d'une laitue.",
+    "season":["winter", "autumn"],
+    "image": "/images/gratin-de-navets-au-fromage.png",
+    "duration":"2",
+    "time":"20min",
+    "mood":"comfort",
+    "type":["dejeuner", "diner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "navets", 
+      "creme fraiche", 
+      "gruyère râpé", 
+      "poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"1 kg de navets, 4 c. à soupe de crème fraîche, 100 g de gruyère râpé, poivre",
+    "Etapes":["Etape 1 : Lavez vos navets, puis faites-les cuire à la vapeur.",
+    "Etape 2 : Lorsqu'ils sont cuits, posez-les sur votre planche de cuisine, puis taillez-les en rondelles.",
+    "Etape 3 : Disposez-les alors dans un plat allant au four.",
+    "Etape 4 : Poivrez-les.",
+    "Etape 5 : Nappez-les ensuite de crème fraîche, puis parsemez le tout d'emmental râpé.",
+    "Etape 6 : Enfournez juste pour faire gratiner.",
+    "Etape 7 : Retirez du four puis servez."
+  ]
+
+  } ,
+  {
+    "name": "Magret de canard au miel et vinaigre balsamique",
+    "description":"Le magret de canard est un aliment incontournable pour les grandes occasions. Nous vous proposons de le sublimer dans une recette toute simple et pleine de saveurs. Ce magret de canard au miel et au vinaigre balsamique est un véritable délice. Il sera parfait au quotidien ou pour votre menu de fêtes et régalera certainement tous les amateurs de bons petits plats.",
+    "season":["winter", "autumn"], 
+    "image": "/images/magret-canard-balsamique.png",
+    "duration":"2",
+    "time":"30min",
+    "mood":"comfort",
+    "type":["diner", "dejeuner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "magrets de canard",
+      "échalotes",
+      "vinaigre balsamique",
+      "miel",
+      "sel et poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"2 gros magrets de canard, 6 échalotes, 10 cl de vinaigre balsamique, 1 c. à soupe de miel, sel, poivre",
+    "Etapes":["Etape 1 : Retirez l'excès de gras sur le côté des magrets mais laissez la graisse de canard sur le dessus. À l'aide d'un couteau de cuisine bien aiguisé, réalisez des entailles en forme de croisillons dans la peau du canard jusqu'à la chair. Salez et poivrez.",
+    "Etape 2 : Faites chauffer une grande poêle antiadhésive sans matière grasse. Lorsqu'elle est bien chaude, déposez-y les magrets côté peau. Laissez-les cuire entre 5 et 10 min en arrosant la chair avec le gras fondu du magret de canard. Retirez les magrets.",
+    "Etape 3 : Videz l'excès de graisse et remettez le canard dans la poêle, côté chair cette fois-ci. Poursuivez la cuisson du magret pendant 5 min environ. Retirez-les du feu et réservez-les au chaud en les enveloppant dans du papier d'aluminium.",
+    "Etape 4 : Épluchez les échalotes et hachez-les. Dans la même poêle, faites revenir les échalotes pendant 5 min. Déglacez au vinaigre balsamique. À l'aide d'une spatule en bois, grattez bien les sucs de cuisson dans le fond de la poêle. Ajoutez le miel et portez 1 min à ébullition. Découpez les magrets de canard poêlés en tranches et nappez-les de sauce avant de déguster. Servez-les accompagnés des pâtes fraîches."
+  ]
+
+  } ,
+  {
+    "name": "Feuilleté de saumon aux épinards",
+    "description":"Les réveillons de Noël et du nouvel An approchent, vous avez envie de recevoir vos amis et votre famille, mais ne savez pas quoi cuisiner ! Nous vous suggérons aujourd'hui ce succulent feuilleté de saumon aux épinards. Composé d'une pâte feuilletée, d'un pavé de saumon, d'épinards et de crème fraîche, cette recette plaira à coup sûr.",
+    "season":["winter", "autumn"],
+    "image": "/images/feuillete-de-saumon-aux-epinards.png",
+    "duration":"3",
+    "time":"40min",
+    "mood":"comfort",
+    "type":["diner", "dejeuner"],
+    "difficulty":"medium",
+    "ingredient": [
+      "pate feuilletee",
+      "pousse d'epinards", 
+      "saumon",
+      "Crème fraîche épaisse",
+      "4 épices",
+      "oignon",
+      "jaune d'oeuf",
+      "huile d'olive",
+      "sel et poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"1 pâte feuilletée, 1 pavé de saumon de taille moyenne, 250 g d'épinards, 1 oignon, 1 c. à soupe de crème fraîche épaisse, 1 jaune d'œuf, 1/2 c. à café de mélange 4 épices, Huile d'olive, Sel et poivre",
+    "Etapes":["Etape 1 : Préchauffez le four à 180°C.",
+    "Etape 2 : Sortez votre pâte feuilletée du réfrigérateur et laissez-la poser à température ambiante, le temps de préparer votre farce. Elle sera, ainsi, plus facile à dérouler. Épluchez et émincez finement l'oignon. Faites chauffer une poêle avec 1 c. à soupe d'huile d'olive et faites-y revenir votre oignon émincé.",
+    "Etape 3 : Ajoutez ensuite les épinards avec une pincée de sel, les 4 épices et la crème. Faites cuire jusqu'à évaporation complète de l'eau. Déroulez la pâte feuilletée sur un plan de travail et piquez-la à l'aide d'une fourchette.",
+    "Etape 4 : Recouvrez ensuite votre pâte avec la préparation aux épinards. Si vous avez un peu de temps, n'hésitez pas à préparer votre pâte feuilletée vous-même. Placez le filet de saumon sur votre préparation à base d'épinard.",
+    "Etape 5 : Refermez ensuite le feuilleté et badigeonnez-le, avec un œuf préalablement battu. Striez le dessus de la pâte à l'aide d'un couteau. Enfournez pendant 20 min jusqu'à ce que le feuilleté soit bien doré. Dégustez ensuite votre feuilleté de saumon aux épinards."
+  ]
+
+  } ,
+  {
+    "name":"Poire pochée aux épices" ,
+    "description":"Découvrez la recette Poires pochées aux épices. Un dessert à base de poire délicatement parfumé aux saveurs de Noël !",
+    "season":["autumn", "winter"],
+    "image": "/images/poire-pochee-aux-epices.png",
+    "duration":"2",
+    "time":"35min",
+    "mood":"comfort",
+    "type":"dessert",
+    "difficulty":"easy",
+    "ingredient": [
+      "poire", 
+      "sucre",
+      "vin blanc doux",
+      "cardamone",
+      "badiane"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"4 belles poires, 1 bouteille de vin blanc doux sucré, 4 c. à soupe de sucre, 4 gousses de cardamome, 2 étoiles de badiane",
+    "Etapes":["Etape 1 : Faites chauffer le vin dans une casserole avec le sucre et les épices.",
+    "Etape 2 : Epluchez les poires et faites-les cuire dans la casserole pendant 20 minutes.",
+    "Etape 3 : Egouttez-les en fin de cuisson et placez-les dans des coupelles.",
+    "Etape 4 : Arrosez avec le sirop au vin blanc et dégustez."
+  ]
+
+  } ,
+  {
+    "name": "Huîtres chaudes de tradition",
+    "description":"Dans cette recette nous vous proposons la réalisation d'huîtres chaudes de tradition, cette recette d'huîtres chaudes est ,en plus d'être facile à faire, simple et gourmande et conviendra à merveille pour une entrée de repas de fêtes de fin d'année. Cela change des autres recettes d'huîtres chaudes.",
+    "season":["winter", "autumn"],
+    "image": "/images/huitres-chaudes.png",
+    "duration":"2",
+    "time":"25min",
+    "mood":"comfort",
+    "type":["diner", "dejeuner"],
+    "difficulty":"medium",
+    "ingredient": [
+      "huitre",
+      "beurre",
+      "vin blanc sec", 
+      "persil",
+      "chaplure de pain"
+    ],
+    "personne":"6 personnes",
+    "ingredients":"12 huîtres, 1/2 verre de vin blanc sec, 15 g de beurre, 4 branches de persil, chapelure de pain",
+    "Etapes":["Etape 1 : Préchauffez le four à th.7 (200°C)",
+    "Etape 2 : Ouvrez les huîtres et décrochez-les.",
+    "Etape 3 : Dans une petite casserole, faites fondre le beurre coupé en morceaux. Ajoutez le persil ciselé et le vin blanc.",
+    "Etape 4 : Déposez les demi-huîtres dans un plat à four et arrosez avec la préparation.",
+    "Etape 5 : Parsemez de chapelure.",
+    "Etape 6 : Enfournez pour 7 à 8 min.",
+    "ETape 7 : Dégustez les huîtres chaudes de tradition à la sortie du four."
+  ]
+
+  } ,
+  {
+    "name": "Queue de langouste au four" ,
+    "description":"Noël est l'occasion de mettre les petits plats dans les grands. Alors à cette occasion nous vous proposons de réaliser ces queues de langouste au four facile à réaliser. Les queues de langouste seront simplement assaisonnées avec du citron vert, de l'huile d'olive et de la ciboulette. C'est tout ce dont vous aurez besoin pour sublimer ce met de choix.",
+    "season":["autumn", "winter"],
+    "image": "/images/queues-de-langouste.png",
+    "duration":"2",
+    "time":"35min",
+    "mood":"comfort",
+    "type":["diner", "dejeuner"],
+    "difficulty":"easy",
+    "ingredient": [
+      "langouste",
+      "citron vert",
+      "huile d'olive",
+      "ciboulette",
+      "sel et poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"4 queues de langouste fraîches, 2 citrons verts, 8 c. à soupe d'huile d'olive, 10 brins de ciboulette fraîche, Sel, poivre",
+    "Etapes":["Etape 1 : Pour réaliser cette recette de queue de langouste, préchauffez le four à 180°C.",
+    "Etape 2 : Coupez en deux les citrons verts et pressez-les afin de récupérer le jus. Nettoyez et épongez la ciboulette. Ciselez-la. Nettoyez et épongez les queues de langoustes. Coupez les queues de langouste en deux dans le sens de la longueur. Utilisez une paire de ciseaux pour le cartilage des crustacés. Placez les demi queues de langouste dans un plat allant au four.",
+    "Etape 3 : Mélangez le jus de citron vert avec l'huile d'olive dans un bol. Salez et poivrez à votre goût. Versez le mélange sur les demi queues de langoustes dans le plat. Puis réalisez la cuisson au four des queues de langoustes pendant 20 minutes. Passez ensuite le plat sous le gril du four et faites griller les queues de langoustes pendant environ 5 minutes.",
+    "Etape 4 : À la sortie du four, placez les queues de langoustes dans un plat de présentation. Nappez-les de sauce à l'huile d'olive et au citron vert puis parsemez-les de ciboulette ciselée. Servez de suite les queues de langouste grillées accompagnées de riz blanc cuit ou de tagliatelles fraîches."
+  ]
+
+  } ,
+  {
+    "name": "Tarte flambée aux oignons",
+    "description":"La tarte flambée est bien meilleure lorsqu'elle est cuite comme autrefois dans les villages, dans un four à pain, chauffé au préalable avec des brindilles de bois qu'on écarte pour introduire la pelle en bois où se trouve la tarte qui est alors léchée par les flammes.",
+    "season":["autumn"],
+    "image": "/images/oignons.png",
+    "duration":"2",
+    "time":"25min",
+    "mood":"comfort",
+    "type":["dejeuner", "diner", "brunch"],
+    "difficulty":"medium",
+    "ingredient": [
+      "pâte à pain",
+      "crème épaisse",
+      "poitrine de lard fumée",
+      "fromage-blanc",
+      "huile de colza",
+      "noix de muscade",
+      "sel et poivre"
+    ],
+    "personne":"4 personnes",
+    "ingredients":"500 g de pâte à pain, 250 g de fromage blanc, 1/4 l de crème épaisse, 2 gros oignons, 100 g de poitrine de lard fumée, 1 c. à soupe d'huile de colza, noix de muscade, sel, poivre",
+    "Etapes":["Etape 1 : Préchauffez le four.",
+    "Etape 2 : Coupez le lard en petits lardons. Hachez les oignons.",
+    "Etape 3 : Mélangez bien le fromage blanc et la crème. Assaisonnez de sel, de poivre et d'une pincée de muscade râpée.",
+    "Etape 4 : Etendez la pâte le plus finement possible (très important), posez-la sur la plaquez du four beurré. Etalez sur la pâte à pain le mélange fromage crème avec une spatule en bois.",
+    "Etape 5 : Parsemez la surface de la pâte d'oignons et de lardons. Arrosez l'huile de colza (Il est également possible l'incorporez l'huile au mélange fromage crème).",
+    "Etape 6 : Faites cuire à four brûlant (four à pain de préférence) pendant 10 min."
+  ]
+
   }
 ]
 

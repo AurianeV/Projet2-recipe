@@ -13,7 +13,7 @@ h3 {
 }
 
 .photo {
-    width:200px;
+    width:300px;
     border-radius: 60px;
     filter: drop-shadow(10px 10px 6px #a3a2a2);
 }
@@ -58,6 +58,7 @@ hr {
 
 li {
     list-style: none;
+    color:rgb(110, 0, 0);
 }
 
 .etapes {
